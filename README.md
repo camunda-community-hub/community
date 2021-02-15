@@ -237,21 +237,11 @@ If you are struggling with creating a Camunda community extension, please open a
 
 We highly encourage you to post on the Camunda community forums about your extension, its wider impact for the open source community, and what made you decide to build a community extension.
 
-### Meet the team
+### Meet the Camunda Developer Relations team
 
-The Camunda Developer Relations team exists to serve the Camunda developer community, from internal employees to Open Source contributors, Enterprise customers, and the broader tech community.
+The [Camunda Developer Relations team](https://github.com/Camunda-Community-Hub/devrel-team) exists to serve the Camunda developer community, from internal employees to Open Source contributors, Enterprise customers, and the broader tech community.
 
 It is our goal to provide opportunities for developers to be more successful by making them aware of our solutions, enabling them to be successful through great experiences, and fostering a culture of collaboration.
-
-We have a number of ways we work toward making developers be more successful, including:
-
-* Awareness of our products & projects.
-* Enablement through content and excellent experiences.
-* Engagement (Collaboration) with other Camunda community members.
-
-#### Who are we?
-
-We're a [globally distributed team](https://github.com/Camunda-Community-Hub/devrel-team) made up of developers and tech-savvy individuals who care about the tech community. We enjoy creating diverse and inclusive communities that provide solutions for our technical audiences.
 
 ### Inspiration
 
