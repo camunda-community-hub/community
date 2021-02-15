@@ -80,7 +80,7 @@ Next, you can browse the hub to see if there is an extension that already matche
 
 #### Open a New Community Extension Issue
 
-Then, you’ll open a new issue in the Camunda Community Hub [issue tracker]. Select ‘New Community Extension Proposal,’ from the available template options and follow the instructions listed there. 
+Then, you’ll open a new issue in the Camunda Community Hub [issue tracker](https://github.com/Camunda-Community-Hub/community/issues/new/choose). Select ‘New Community Extension Proposal,’ from the available template options and follow the instructions listed there. 
 
 #### Extension Lifecycle
 
