@@ -167,7 +167,7 @@ If you are interested in getting started contributing by doing any of these task
 
 1. Reach out to Camunda Technical Community Builder Rin Oliver by emailing community@camunda.com
 2. Open a new issue in the Camunda Community Hub repository you'd like to contribute to and detail the non-code contributions that you would like to make.
-3. If you see a 'Good First Issue' relating to non-code contributions (documentation, issues or pull requests that need triaging, process management, etc.) and you'd like to claim, you are encouraged to /assign it to yourself 
+3. If you see a 'Good First Issue' relating to non-code contributions (documentation, issues or pull requests that need triaging, process management, etc.) and you'd like to claim it, you are encouraged to /assign it to yourself 
 4. Tag @celanthe in the comments on the issue
 
 Some examples of how you can contribute to the Camunda Community Hub and the broader Camunda open source ecosystem are as follows:
