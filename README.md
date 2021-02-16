@@ -148,11 +148,11 @@ All community extensions using Maven are expected to use [TBD] as the parent POM
 * Document any commands needed to run CI/CD tests, and be sure to include instructions for running tests. 
 * Licensing information -- Please list the open source licenses your project is under here. For example, Apache 2.0.
 * Lifecycle labels -- Please review the [Camunda Community Hub extension lifecycle](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md) and add a [Shields.io badge](https://shields.io/) to your extension's README that indicates which area of the lifecycle it falls under.
-    * Note: If you no longer wish to maintain your extension, please [follow the instructions] for opening a Maintainer Wanted pull request using the template provided, and apply the Lifecycle - Maintainer Wanted Shield badge and Probot labels to your extension’s repository, issues, and open PRs.
+    * Note: If you no longer wish to maintain your extension, please follow the instructions for opening a pull request using the template provided, and apply the Lifecycle - Maintainer Wanted Shield badge and Probot labels to your extension’s repository, issues, and open PRs.
 
 **Optional information:**
 
-* Badges -- These are created using Shields.io, and give community members a visual representation of your extension’s build status, [lifecycle], release version, and other useful metadata
+* Badges -- These are created using Shields.io, and give community members a visual representation of your extension’s build status, lifecycle, release version, and other useful metadata
 * Visuals -- If your project relies on screenshots, please ensure that you also add alt text to screenshots to ensure accessibility for those using screen readers or that have visual disabilities
 * Keep best practices in mind when using screenshots. Remember to obscure any API keys, secrets, or identifiers that could be exploited maliciously
 * Authors, maintainers, and other acknowledgements -- If you would like to include this section, it is a nice way to show appreciation for the individuals who contributed to your project
@@ -165,7 +165,7 @@ If you are interested in contributing to any Camunda Community Hub extension, th
 
 If you are interested in getting started contributing by doing any of these tasks, please complete the following steps:
 
-1. Reach out to Camunda Technical Community Builder Rin Oliver by emailing [community@camunda.com]
+1. Reach out to Camunda Technical Community Builder Rin Oliver by emailing community@camunda.com
 2. Open a new issue in the Camunda Community Hub repository you'd like to contribute to and detail the non-code contributions that you would like to make.
 3. If you see a 'Good First Issue' relating to non-code contributions (documentation, issues or pull requests that need triaging, process management, etc.) and you'd like to claim, you are encouraged to /assign it to yourself 
 4. Tag @celanthe in the comments on the issue
@@ -233,7 +233,7 @@ If you are struggling, the best thing to do is to reach out to the Camunda commu
 
 If you’re encountering a problem, remember that the community is here to help! Please feel free to start a post on the Camunda Cloud Discourse forums, or the Camunda Community Hub GitHub project board.
 
-If you are struggling with creating a Camunda community extension, please open a Pull Request using the [provided template].
+If you are struggling with creating a Camunda community extension, please open a Pull Request using the provided template.
 
 We highly encourage you to post on the Camunda community forums about your extension, its wider impact for the open source community, and what made you decide to build a community extension.
 
