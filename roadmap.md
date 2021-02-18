@@ -27,4 +27,4 @@ We will also maintain this roadmap both on a future dedicated Camunda Community 
 * Scope, plan, and implement the Camunda Community Hub Governance plan
 
 
-Thank you to our amazing open source community for your hard work, contributions, and expertise. We look forward to working together with you on this project, and are excited to collaborate with you to shape the future of Camunda’s open source software ecosystem. If you have any questions about the Camunda Community Hub, please don’t hesitate to contact us via email at: camunda.community@camunda.com. 
+Thank you to our amazing open source community for your hard work, contributions, and expertise. We look forward to working together with you on this project, and are excited to collaborate with you to shape the future of Camunda’s open source software ecosystem. If you have any questions about the Camunda Community Hub, please don’t hesitate to contact us via email at: community@camunda.com. 
