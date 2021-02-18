@@ -1,6 +1,31 @@
 # Welcome to the Camunda Community Hub!
 ## A project to empower our open source community extension maintainers, and encourage new contributors to get started contributing to the Camunda open source ecosystem. 
 
+**Table of Contents**
+
+- [What is the Camunda Community Hub](#what-is-the-camunda-community-hub)
+- [Why migrate to the hub](#why-migrate-to-the-hub)
+- [Getting started](#getting-started)
+- [Sign the CLA and agree to the Code of Conduct](#sign-the-cla-and-agree-to-the-code-of-conduct)
+- [Open a New Community Extension proposal](#open-a-new-community-extension-proposal)
+- [Extension Lifecycle](#extension-lifecycle)
+- [Issue triage and labelling](#issue-triage-and-labelling)
+- [Maintainer expectations](#maintainer-expectations)
+- [Reviewer expectations](#reviewer-expectations)
+- [Identifying a project maintainer](#identifying-a-project-maintainer)
+- [Maven artifacts](#maven-artifacts)
+- [Root package name](#root-package-name)
+- [Parent POM](#parent-pom)
+- [What to include in your extension's README file](#what-to-include-in-your-extensions-readme-file)
+- [Optional information to include in your README file](#optional-information-to-include-in-your-readme-file)
+- [Non-code Camunda community extension contributions](#non-code-camunda-community-extension-contributions)
+- [Event-Based community roles](#event-based-community-roles)
+- [Community education and onboarding](#community-education-and-onboarding)
+- [Communication guidelines and expectations](#communication-guidelines-and-expectations)
+- [Troubleshooting](#troubleshooting)
+- [Community extension peer support](#community-extension-peer-support)
+- [Inspiration](#inspiration)
+
 ### What is the Camunda Community Hub?
 
 The Camunda Community Hub is a GitHub Organization for all of our community contributed extensions.
@@ -72,17 +97,17 @@ email@example.com
 
 For more information on how to set your email address in GitHub, you can read the [GitHub documentation](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address) which goes into much more detail on the subject. 
 
-#### Sign the CLA and agree to the Code of Coduct
+#### Sign the CLA and agree to the Code of Conduct
 
 Once you’ve decided to move forward with creating your community extension, the next step is to sign our [CLA](https://cla-assistant.io/camunda/) and agree to abide by our [Code of Conduct](https://camunda.com/events/code-conduct/).
 
 Next, you can browse the hub to see if there is an extension that already matches your idea. Alternatively, you can join the Camunda Cloud, Camunda Platform, and BPMN forums and post your idea in the Community Extensions thread. 
 
-#### Open a New Community Extension Issue
+#### Open a New Community Extension proposal
 
 Then, you’ll open a new issue in the Camunda Community Hub [issue tracker](https://github.com/Camunda-Community-Hub/community/issues/new/choose). Select ‘New Community Extension Proposal,’ from the available template options and follow the instructions listed there. 
 
-#### Extension Lifecycle
+#### Extension lifecycle
 
 Once your extension proposal issue has been opened, use your best judegement after reviewing our [community extension lifecycle documentation]((https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md)) to identify where in the development process your extension is currently. You can select the applicable label from [this list](https://github.com/Camunda-Community-Hub/community/blob/main/issue-triage.md).
 
@@ -150,7 +175,7 @@ All community extensions using Maven are expected to use [TBD] as the parent POM
 * Lifecycle labels -- Please review the [Camunda Community Hub extension lifecycle](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md) and add a [Shields.io badge](https://shields.io/) to your extension's README that indicates which area of the lifecycle it falls under.
     * Note: If you no longer wish to maintain your extension, please follow the instructions for opening a pull request using the template provided, and apply the Lifecycle - Maintainer Wanted Shield badge and Probot labels to your extension’s repository, issues, and open PRs.
 
-**Optional information:**
+#### Optional information to include in your README file
 
 * Badges -- These are created using Shields.io, and give community members a visual representation of your extension’s build status, lifecycle, release version, and other useful metadata
 * Visuals -- If your project relies on screenshots, please ensure that you also add alt text to screenshots to ensure accessibility for those using screen readers or that have visual disabilities
