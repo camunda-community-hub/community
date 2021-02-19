@@ -28,7 +28,7 @@
 
 ### What is the Camunda Community Hub?
 
-The Camunda Community Hub is a GitHub Organization for all of our community contributed extensions.
+The Camunda Community Hub is a GitHub Organization for all of our community contributed extensions. Extensions in the Camunda Community Hub organization are independently led and maintained projects by members of the broader Camunda open source community, some of whom happen to be Camunda employees, or are projects/tutorials that are created and maintained by the Camunda Developer Relations team!
 
 We’ve put together some commonly asked questions and answers as to the benefits of joining the Camunda Community Hub, our approach to open source contributions and Maintainership moving forward, and how we hope to empower our open source community in the future. 
 
@@ -47,8 +47,6 @@ Here are some advantages to your extension being listed under the Camunda Commun
 * Improved visibility as to where an extension is in its lifecycle
 * Consistent formatting of new issues and releases with new templates and tooling
 * Visibility of your project for new contributors interested in getting involved with open source software
-
-Extensions under the Camunda Community Hub organization are independently led and maintained projects by members of the broader Camunda open source community, some of whom happen to be Camunda employees!
 
 The Camunda Community Hub aims to help extension maintainers coordinate, cross-test, and ensure that extensions hosted under the Hub can be used without causing conflict with other applications. It is important to note that community extensions are maintained by the community, and are not maintained or officially supported by Camunda. 
 
