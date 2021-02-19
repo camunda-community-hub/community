@@ -22,15 +22,15 @@ References Issues #021 #009
 
 Fix to [xyz feature] was added to resolve bug referenced in #021, #009. All builds now pass, and the extension is performing as expected.
 
-/lm needs-review, community-extension, bug-fix
-/assign @approver1 @approver2 @approver3
+<code> /lm needs-review, community-extension, bug-fix</code>
+<code>/assign @approver1 @approver2 @approver3</code>
 
 ### What’s included in the example issue description:
 
 * Reference to other issues or PRs (#021, #009)
 * Additional context around the changes that were made in the PR
-* The /lm command automatically assigns the 'needs review', 'community extension', and 'bug fix' labels to the issue
-* The /assign command assigns reviewers to a pull request. Maintainers or reviewers will /approve a PR after it has been approved and no changes are requested.
+* The <code>/lm </code>command automatically assigns the 'needs review', 'community extension', and 'bug fix' labels to the issue
+* The <code>/assign </code> command assigns reviewers to a pull request. Maintainers or reviewers will /approve a PR after it has been approved and no changes are requested.
 * Work-In-Progress pull requests
 
 If you are working on a pull request with many moving parts, we strongly recommend that you break up your request into smaller PRs, rather than one large PR with many lines of code to review. This helps Community Extension Maintainers review and approve your pull requests quickly. 
