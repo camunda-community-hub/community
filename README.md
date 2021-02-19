@@ -109,7 +109,7 @@ Then, you’ll open a new issue in the Camunda Community Hub [issue tracker](htt
 
 #### Extension lifecycle
 
-Once your extension proposal issue has been opened, use your best judegement after reviewing our [community extension lifecycle documentation]((https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md)) to identify where in the development process your extension is currently. You can select the applicable label from [this list](https://github.com/Camunda-Community-Hub/community/blob/main/issue-triage.md).
+Once your extension proposal issue has been opened, use your best judegement after reviewing our [community extension lifecycle documentation](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md)) to identify where in the development process your extension is currently. You can select the applicable label from [this list](https://github.com/Camunda-Community-Hub/community/blob/main/issue-triage.md).
 
 Note that if your extension is brand new, the label to apply to it should always be proof-of-concept. 
 
