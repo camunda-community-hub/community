@@ -162,6 +162,8 @@ All community extensions using Maven are expected to use [TBD] as the parent POM
 
 ### What to include in your extension's README file
 
+* Lifecycle labels -- Please review the [Camunda Community Hub extension lifecycle](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md) and add a [Shields.io badge](https://shields.io/) to your extension's README that indicates which area of the lifecycle it falls under.
+    * Note: If you no longer wish to maintain your extension, please follow the instructions for opening a pull request using the template provided, and apply the Lifecycle - Maintainer Wanted Shield badge and Probot labels to your extension’s repository, issues, and open PRs.
 * We highly suggest that all Camunda community extensions follow our established Style Guide when writing documentation
 * A name that clearly identifies your project
     *  Implement the [Camunda community extension badge](https://img.shields.io/badge/Community%20Extension-An%20open%20source%20community%20maintained%20project-FF4700) if you so choose (this is optional)
@@ -172,8 +174,6 @@ All community extensions using Maven are expected to use [TBD] as the parent POM
 * Contributing -- If your extension is open to outside contributions from the community, here’s where you should state that, and what your requirements are for accepting/merging a pull request. 
 * Document any commands needed to run CI/CD tests, and be sure to include instructions for running tests. 
 * Licensing information -- Please list the open source licenses your project is under here. For example, Apache 2.0.
-* Lifecycle labels -- Please review the [Camunda Community Hub extension lifecycle](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md) and add a [Shields.io badge](https://shields.io/) to your extension's README that indicates which area of the lifecycle it falls under.
-    * Note: If you no longer wish to maintain your extension, please follow the instructions for opening a pull request using the template provided, and apply the Lifecycle - Maintainer Wanted Shield badge and Probot labels to your extension’s repository, issues, and open PRs.
 
 #### Optional information to include in your README file
 
