@@ -22,15 +22,14 @@ References Issues #021 #009
 
 Fix to [xyz feature] was added to resolve bug referenced in #021, #009. All builds now pass, and the extension is performing as expected.
 
-/label needs-review, community-extension
+/lm needs-review, community-extension, bug-fix
 /assign @approver1 @approver2 @approver3
-/kind bug-fix
 
 ### What’s included in the example issue description:
 
 * Reference to other issues or PRs (#021, #009)
 * Additional context around the changes that were made in the PR
-* The /kind label indicates that this issue is related to the topic of bug fixes
+* The /lm command automatically assigns the 'needs review', 'community extension', and 'bug fix' labels to the issue
 * The /assign command assigns reviewers to a pull request. Maintainers or reviewers will /approve a PR after it has been approved and no changes are requested.
 * Work-In-Progress pull requests
 
