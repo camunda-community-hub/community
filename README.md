@@ -13,11 +13,11 @@
 - [Maintainer expectations](#maintainer-expectations)
 - [Reviewer expectations](#reviewer-expectations)
 - [Identifying a project maintainer](#identifying-a-project-maintainer)
+- [What to include in your extension's README file](#what-to-include-in-your-extensions-readme-file)
+- [Optional information to include in your README file](#optional-information-to-include-in-your-readme-file)
 - [Maven artifacts](#maven-artifacts)
 - [Root package name](#root-package-name)
 - [Parent POM](#parent-pom)
-- [What to include in your extension's README file](#what-to-include-in-your-extensions-readme-file)
-- [Optional information to include in your README file](#optional-information-to-include-in-your-readme-file)
 - [Non-code Camunda community extension contributions](#non-code-camunda-community-extension-contributions)
 - [Event-Based community roles](#event-based-community-roles)
 - [Community education and onboarding](#community-education-and-onboarding)
@@ -145,21 +145,6 @@ Reviewers can also review open pull requests at any time that works for them out
 
 Each Camunda community extension will have listed a Maintainer whose responsibility it is to maintain the extension and drive its progression forward. 
 
-### Maven artifacts
-
-Community extensions should follow these naming conventions for Maven Artifacts:
-
-* groupID
-* artifactID
-
-### Root package name
-
-The root package name should be the same as the extension's Maven Artifact groupID.
-
-### Parent POM
-
-All community extensions using Maven are expected to use [TBD] as the parent POM. This POM contains project release and artifact publishing configurations.
-
 ### What to include in your extension's README file
 
 * Lifecycle labels -- Please review the [Camunda Community Hub extension lifecycle](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md) and add a [Shields.io badge](https://shields.io/) to your extension's README that indicates which area of the lifecycle it falls under.
@@ -183,6 +168,21 @@ All community extensions using Maven are expected to use [TBD] as the parent POM
 * Authors, maintainers, and other acknowledgements -- If you would like to include this section, it is a nice way to show appreciation for the individuals who contributed to your project
 * Roadmap -- GitHub [project boards](https://docs.github.com/en/github/managing-your-work-on-github/about-project-boards) are a great way to showcase your roadmap for your extension. If you have one set up, it’s a good idea to link to it in your README.
 * Make the steps to get started with your extension clear to understand for those that may not have a similar background to yourself
+
+### Maven artifacts
+
+Community extensions should follow these naming conventions for Maven Artifacts:
+
+* groupID
+* artifactID
+
+### Root package name
+
+The root package name should be the same as the extension's Maven Artifact groupID.
+
+### Parent POM
+
+All community extensions using Maven are expected to use [TBD] as the parent POM. This POM contains project release and artifact publishing configurations.
 
 ### Non-Code Camunda community extension contributions
 
