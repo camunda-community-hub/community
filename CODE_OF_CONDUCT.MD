@@ -1,5 +1,9 @@
 # [Camunda Community Hub Code of Conduct](https://camunda.com/events/code-conduct/)
 
+## Community Standards
+
+Our awesome community is what makes us who we are. We’re extremely proud that our community members come from all around the world and from various backgrounds. We want to provide each and every one of you with a consistently great experience, so we created this Community Code of Conduct. We want to ensure that mutual support will always be guaranteed and that we create an environment in which we can grow together.
+
 As is the nature of open source software, maintainers and extension creators often wear many hats. These range from administrative, to QA, and much more. 
 As extensions in the Camunda Community Hub are community led, it is crucial that users of extensions understand that Maintainers are often working on community extensions in their free time. 
 
@@ -16,7 +20,8 @@ The Camunda Community Code of Conduct also applies to any Camunda online space. 
 
 We trust all of our community members will help to create a safe and welcoming environment for everyone.
 
-### Our Standards
+### Creating a Harrassment-Free Space
+
 We are dedicated to providing a harassment-free community space for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, ethnicity, age, physical appearance, religion or similar personal characteristics.
 
 We do not tolerate harassment of other Camunda users in any form, whether publicly or privately. Harassment includes, but is not limited to: harmful or prejudicial verbal or written comments, inappropriate use of nudity, sexual images, and/or sexually explicit language in public spaces; threats of physical or non-physical harm; deliberate intimidation, stalking or following; harassing photography or recording; sustained disruption of talks or other events; inappropriate physical contact; and unwelcome sexual attention.
