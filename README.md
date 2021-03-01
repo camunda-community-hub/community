@@ -123,7 +123,7 @@ Note that if your extension is brand new, the label to apply to it should always
 
 ### Issue triage and labelling
 
-For further information on Issue Triage & Labelling in the Camunda Community Hub, including how to apply issue labels automatically using Probot and which labels are available to you, please read our [Issue Triage and Labelling documentation](https://github.com/Camunda-Community-Hub/community/blob/main/issue-triage.md).
+For further information on Issue Triage & Labelling in the Camunda Community Hub, please read our [Issue Triage and Labelling documentation](https://github.com/Camunda-Community-Hub/community/blob/main/issue-triage.md).
 
 ### Maintainer expectations
 
