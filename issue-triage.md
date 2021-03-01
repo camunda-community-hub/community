@@ -1,6 +1,6 @@
 # Issue triage and labelling
 
-Issue labels are primarily intended to be applied automatically by the Camunda Community Probot automation, but we also encourage community members to triage issues by adding or removing labels if they see an open pull request or issue without a label they feel it may need to improve its context, visibility, or move it forward in the issue triage process.
+Issue labels can be added directly to issues via GitHub, but you can also apply labels via leaving comments on open issues by interacting with the Camunda Community Probot by using specific commands. We also encourage community members to triage issues by adding or removing labels if they see an open pull request or issue without a label they feel it may need to improve its context, visibility, or move it forward in the issue triage process.
 
 The following labels apply to community extension related pull requests and issues:
 
