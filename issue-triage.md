@@ -7,11 +7,11 @@ The following labels apply to community extension related pull requests and issu
 * community-extension - This label is highly suggested to be used where applicable for all Camunda community extension related repositories, pull requests, and issues in the Camunda Community Extension Hub and designates that an extension is maintained by the open source community, and is not officially supported or maintained by Camunda.
 
 
-* Lifecycle - Proof-of-Concept
-* Lifecycle - Incubation
-* Lifecycle - Stable
-* Lifecycle - Deprecated
-* Lifecycle - Abandoned
+* Lifecycle - [Proof-of-Concept](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md#proof-of-concept-)
+* Lifecycle - [Incubating](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md#incubating-)
+* Lifecycle - [Stable](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md#stable-)
+* Lifecycle - [Deprecated](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md#deprecated-)
+* Lifecycle - [Abandoned](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md#abandoned-)
 * Lifecycle - Needs Maintainer
 
 
