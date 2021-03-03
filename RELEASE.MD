@@ -38,3 +38,7 @@ Integration tests should be versioned when preparing a release, but should never
 
 This will ensure that when the `mvn release:perform `is triggered (with the `-DperformRelease` flag set) the `integration-tests` module is skipped.
 
+### Integrating GitHub Actions with Zeebe on Camunda Cloud
+
+If you are interested in working with GitHUb Actions using Zeebe on Camunda Cloud, visit our [Camunda Cloud GitHub Action](https://github.com/camunda-community-hub/camunda-cloud-github-action) repository to get started.
+
