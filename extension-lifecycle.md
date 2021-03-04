@@ -18,8 +18,8 @@ To use one of the Shields.io badges in your extension's README, copy the <code>i
 ### Stable <img src="https://img.shields.io/badge/Lifecycle-Stable-brightgreen">
 * An extension with the, ‘Stable,’ label has an active, thriving community surrounding it. It releases updates on a regular basis, has active maintainers and community participants, and may be actively used at an organizational level.
 * Maintainers of Stable extensions are actively in contact with the Camunda team, or may have one or more Camunda team members actively contributing to the extension.
-* Stable extension maintainers and reviewers are expected to adhere to [our expectations] surrounding PR reviews, and communication
-* Stable Community Extensions have agreed to follow the Camunda Community Extension [issue triage and pull request review process] outlined below.
+* Stable extension maintainers and reviewers are expected to adhere to [our expectations](https://github.com/camunda-community-hub/community#maintainer-expectations) surrounding PR reviews, and communication
+* Stable Community Extensions have agreed to follow the Camunda Community Extension [issue triage and pull request review process](https://github.com/camunda-community-hub/community/blob/main/issue-triage.md) 
 * Having a Stable Community Extension means that much of the heavy lifting of building/maintenance surrounding releases is done for you with the ability to implement GitHub actions to automatically publish your extension to Maven Central!
 * To add this badge to your repository, add the following code at the top of your extension's README file: ```<img src="https://img.shields.io/badge/Lifecycle-Stable-brightgreen">```
 
