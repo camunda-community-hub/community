@@ -54,7 +54,7 @@ For questions/support relating to the commercial Camunda Cloud and Camunda Platf
 
 #### Working with an existing Camunda community extension repository
 
-In order to work within the Camunda Community Hub, Maintainers are asked to transfer their repository into the Camunda Community Hub, rather than fork it into the Hub.
+In order to work within the Camunda Community Hub, Maintainers are asked to transfer their repository into the Camunda Community Hub, rather than fork it into the Hub. When you migrate your extension into the Camunda Community Hub, we will receive your contact information and may occasionally reach out to you with questions, information, etc. You *will not* be added to any marketing lists, but you may be contacted by us or Camunda Community Hub open source contributors.
 
 You can find the instructions for transferring a repository **owned by your organization** [here](https://docs.github.com/en/github/administering-a-repository/transferring-a-repository#transferring-a-repository-owned-by-your-organization)
 
