@@ -5,7 +5,7 @@ Community extensions will have the following labels and Shields.io badges applie
 
 To use one of the Shields.io badges in your extension's README, copy the <code>img src</code> code and the accompanying image URL with the extension lifecycle label you'd like to use into your README and paste it at the top of the README.
 
-### Community Extension <img src="https://img.shields.io/badge/Community%20Extension-An%20open%20source%20community%20maintained%20project-FF4700">
+### Community Extension <img src="https://img.shields.io/badge/Community%20Extension-An%20open%20source%20community%20maintained%20project-FF4700" alt="an orange badge that reads 'Community Extension: An open source community maintained project">
 
 * This badge designates that an extension is maintained by the open source community
 * To add this badge to your repository, add the following code at the top of your extenion's README file ```[![](https://img.shields.io/badge/Community%20Extension-An%20open%20source%20community%20maintained%20project-FF4700)](https://github.com/camunda-community-hub/community)```
@@ -14,11 +14,11 @@ To use one of the Shields.io badges in your extension's README, copy the <code>i
 * Proof-of-Concept/experimental extensions are just that, ideas that community members would like to explore further. 
 * They offer little support, nor do they promise any stability. 
 * This label is most often applied to extensions that are used to validate a Proof-of-Concept for working with Camunda Cloud or Camunda Platform, or for those interested in finding collaborators on a particular project that has the potential to grow into a Stable extension.
-* To add this badge to your repository, add the following code at the top of your extension's README file: ```<img src="https://img.shields.io/badge/Lifecycle-Proof%20of%20Concept-blueviolet" alt="Violet purple Shields.io badge that reads Lifecycle: Proof of Concept">```
+* To add this badge to your repository, add the following code at the top of your extension's README file: ```[![](https://img.shields.io/badge/Lifecycle-Proof%20of%20Concept-blueviolet)](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md#proof-of-concept-)```
 
 ### Incubating <img src="https://img.shields.io/badge/Lifecycle-Incubating-blue" alt="Blue Shields.io badge that reads Lifecycle: Incubating">
 * Extensions with the, ‘Incubating’ label provide some degree of stability which is defined and adhered to by the project’s maintainer, community support, and are actively maintained and updated. Documentation gaps, roadblocks, bugs, and other issues are to be expected. There is currently no set time limit for an extension to move out of incubation status.
-* To add this badge to your repository, add the following code at the top of your extension's README file: ```<img src="https://img.shields.io/badge/Lifecycle-Incubating-blue" alt="Blue Shields.io badge that reads Lifecycle: Incubating">```
+* To add this badge to your repository, add the following code at the top of your extension's README file: ```[![](https://img.shields.io/badge/Lifecycle-Incubating-blue)](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md#incubating-)```
 
 ### Stable <img src="https://img.shields.io/badge/Lifecycle-Stable-brightgreen" alt="Green Shields.io badge that reads Lifecycle: Stable">
 * An extension with the, ‘Stable,’ label has an active, thriving community surrounding it. It releases updates on a regular basis, has active maintainers and community participants, and may be actively used at an organizational level.
@@ -30,17 +30,17 @@ To use one of the Shields.io badges in your extension's README, copy the <code>i
 
 ### Deprecated <img src="https://img.shields.io/badge/Lifecycle-Deprecated-yellowgreen" alt="Yellow Shields.io badge that reads Lifecycle: Deprecated">
 * An extension with the ‘Deprecated,’ label is no longer being maintained. While it may work on your machine just fine today, there is no guarantee that it will work in the future. **Use these extensions at your own risk.**
-* To add this badge to your repository, add the following code at the top of your extension's README file: ```<img src="https://img.shields.io/badge/Lifecycle-Deprecated-yellowgreen" alt="Yellow Shields.io badge that reads Lifecycle: Deprecated">```
+* To add this badge to your repository, add the following code at the top of your extension's README file: ```[![](https://img.shields.io/badge/Lifecycle-Deprecated-yellowgreen)](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md#deprecated-)```
 
 ### Abandoned <img src="https://img.shields.io/badge/Lifecycle-Abandoned-lightgrey" alt="Light gray Shields.io badge that reads Lifecycle: Abandoned">
 * Extensions are considered abandoned when the project’s owner is no longer updating the extension, or has not responded to open issues or pull requests within 30 days, or has notified a Camunda team member via [this template] that they are no longer actively maintaining the extension. 
 * If you are interested in stepping up to maintain an abandoned extension, please open a new pull request using the Extension Review Template and complete the ‘New Maintainer Suggestion’ Section
 * * If you are a Maintainer that is no longer able to Maintain your extension, you can add the 'Needs Maintainer' Shields.io badge to your extension's README file to help notify others that the extension is in need of a Maintainer. <img src="https://img.shields.io/badge/Lifecycle-Needs%20Maintainer%20-ff69b4" alt="Hot pink Shields.io badge that reads Lifecycle: Needs Maintainer">
-* * To add this badge to your repository, add the following code at the top of your extension's README file: ```<img src="https://img.shields.io/badge/Lifecycle-Needs%20Maintainer%20-ff69b alt="Hot pink Shields.io badge that reads Lifecycle: Needs Maintainer">```
+* * To add this badge to your repository, add the following code at the top of your extension's README file: ```[![](https://img.shields.io/badge/Lifecycle-Needs%20Maintainer%20-ff69b4)](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md#abandoned-)```
 * In your request, please be sure to detail as much as possible your plans for maintaining the extension moving forward, and please link to a discussion that shows you have made a good faith effort to contact the extension’s original developer.
 * Requesting removal of a community extension
 * When an extension has critical bugs and is not actively maintained, it may need to be removed from the Camunda Community Hub. To facilitate this process, please complete the following steps:
 * Open an issue on the issue tracker for the extension
 * Wait 30 days for a response from the project maintainer
 * If no response is received, or a maintainer confirms that they no longer wish to maintain the project, follow the steps outlined in the Extension Review Template which will notify the Camunda team to remove the extension from the Community Hub and any existing Camunda documentation. 
-* To add this badge to your repository, add the following code at the top of your extension's README file: ```<img src="https://img.shields.io/badge/Lifecycle-Abandoned-lightgrey" alt="Light gray Shields.io badge that reads Lifecycle: Abandoned">```
+* To add this badge to your repository, add the following code at the top of your extension's README file: ```[![](https://img.shields.io/badge/Lifecycle-Needs%20Maintainer%20-ff69b4)](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md#abandoned-)```
