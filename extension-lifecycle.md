@@ -5,6 +5,11 @@ Community extensions will have the following labels and Shields.io badges applie
 
 To use one of the Shields.io badges in your extension's README, copy the <code>img src</code> code and the accompanying image URL with the extension lifecycle label you'd like to use into your README and paste it at the top of the README.
 
+### Community Extension <img src="https://img.shields.io/badge/Community%20Extension-An%20open%20source%20community%20maintained%20project-FF4700">
+
+* This badge designates that an extension is maintained by the open source community
+* To add this badge to your repository, add the following code at the top of your extenion's README file ```[![](https://img.shields.io/badge/Community%20Extension-An%20open%20source%20community%20maintained%20project-FF4700)](https://github.com/camunda-community-hub/community)```
+
 ### Proof-of-Concept <img src="https://img.shields.io/badge/Lifecycle-Proof%20of%20Concept-blueviolet" alt="Violet purple Shields.io badge that reads Lifecycle: Proof of Concept">
 * Proof-of-Concept/experimental extensions are just that, ideas that community members would like to explore further. 
 * They offer little support, nor do they promise any stability. 
@@ -21,7 +26,7 @@ To use one of the Shields.io badges in your extension's README, copy the <code>i
 * Stable extension maintainers and reviewers are expected to adhere to [our expectations](https://github.com/camunda-community-hub/community#maintainer-expectations) surrounding PR reviews, and communication
 * Stable Community Extensions have agreed to follow the Camunda Community Extension [issue triage and pull request review process](https://github.com/camunda-community-hub/community/blob/main/issue-triage.md) 
 * Having a Stable Community Extension means that much of the heavy lifting of building/maintenance surrounding releases is done for you with the ability to implement GitHub actions to automatically publish your extension to [Maven Central](https://github.com/camunda-community-hub/community-action-maven-release) if applicable to your extension. Initially, by utilizing the above GitHub Workflow, Maintainers of Java-based extensions can implement to automate the publishing of new artifacts to Maven Central. We plan to introduce further GitHub workflows in the future for automating release management for other frameworks and libraries, in addition to Maven and Java. 
-* To add this badge to your repository, add the following code at the top of your extension's README file: ```<img src="https://img.shields.io/badge/Lifecycle-Stable-brightgreen" alt="Green Shields.io badge that reads Lifecycle: Stable">```
+* To add this badge to your repository, add the following code at the top of your extension's README file: ```[![](https://img.shields.io/badge/Lifecycle-Stable-brightgreen)](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md#stable-)```
 
 ### Deprecated <img src="https://img.shields.io/badge/Lifecycle-Deprecated-yellowgreen" alt="Yellow Shields.io badge that reads Lifecycle: Deprecated">
 * An extension with the ‘Deprecated,’ label is no longer being maintained. While it may work on your machine just fine today, there is no guarantee that it will work in the future. **Use these extensions at your own risk.**
