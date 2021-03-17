@@ -43,4 +43,4 @@ To use one of the Shields.io badges in your extension's README, copy the <code>i
 * Open an issue on the issue tracker for the extension
 * Wait 30 days for a response from the project maintainer
 * If no response is received, or a maintainer confirms that they no longer wish to maintain the project, follow the steps outlined in the Extension Review Template which will notify the Camunda team to remove the extension from the Community Hub and any existing Camunda documentation. 
-* To add this badge to your repository, add the following code at the top of your extension's README file: ```[![](https://img.shields.io/badge/Lifecycle-Needs%20Maintainer%20-ff69b4)](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md#abandoned-)```
+* To add this badge to your repository, add the following code at the top of your extension's README file: ```[![](https://img.shields.io/badge/Lifecycle-Abandoned-lightgrey)](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md#abandoned-)```
