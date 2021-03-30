@@ -109,6 +109,10 @@ Once you’ve decided to move forward with creating your community extension, th
 
 Next, you can browse the hub to see if there is an extension that already matches your idea. Alternatively, you can join the Camunda Cloud, Camunda Platform, and BPMN forums and post your idea in the Community Extensions thread. 
 
+#### Create a new repository
+
+Title the repository with the name of your proposed extension.
+
 #### Open a New Community Extension proposal
 
 Then, you’ll open a new issue in the Camunda Community Hub [issue tracker](https://github.com/Camunda-Community-Hub/community/issues/new/choose). Select ‘New Community Extension Proposal,’ from the available template options and follow the instructions listed there. 
