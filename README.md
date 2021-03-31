@@ -52,11 +52,11 @@ For questions/support relating to the commercial Camunda Cloud and Camunda Platf
 
 ### Getting started
 
-#### Working with an existing Camunda community extension repository
-
 In order to work within the Camunda Community Hub, Maintainers are asked to transfer their repository into the Camunda Community Hub, rather than fork it into the Hub. When you migrate your extension into the Camunda Community Hub, we will receive your contact information and may occasionally reach out to you with questions, information, etc. You *will not* be added to any marketing lists, but you may be contacted by us or Camunda Community Hub open source contributors.
 
 The first step to take is to [open an issue](https://github.com/camunda-community-hub/community/issues) in this repository and ask to be invited to join the Camunda Community Hub.
+
+#### Working with an existing Camunda community extension repository
 
 Next, you will need to transfer your repository into the Camunda Community Hub. You can find the instructions for transferring a repository **owned by your organization** [here](https://docs.github.com/en/github/administering-a-repository/transferring-a-repository#transferring-a-repository-owned-by-your-organization)
 
