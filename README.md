@@ -142,6 +142,8 @@ If an extension maintainer wishes for an extension to be listed as a Stable Comm
 - Maintainers of a Stable Camunda Community Extension are expected to review open pull requests and issues in their extension's repository within 30 days
 - Follow the [guidelines](https://github.com/Camunda-Community-Hub/community/blob/main/issue-triage.md) for open issue and pull request triage
 
+If you are a contributor that would like to take over maintaining an extension in the Camunda Community hub that has the Lifecycle: Abandoned or 'Maintainer Wanted' labels, please review [becoming a Maintainer of an abandoned extension](https://github.com/camunda-community-hub/community/blob/main/abandoned-extension-maintainer-guidelines.MD)
+
 ### Reviewer expectations
 
 Reviewers can be anyone who is interested in contributing to an extension. They are primairily responsible for reviewing open pull requests (PRs) in a project, are expected to leave helpful feedback where necessary, assign issue triage labels, ask clarifying questions, and to understand the inner workings of the extension whose pull requests they are reviewing. They are encouraged to review any open PRs on a regular basis, which is often determined by the extension's maintainer. 
