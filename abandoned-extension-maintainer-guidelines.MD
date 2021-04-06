@@ -21,7 +21,7 @@ Here are some of the first steps to take when considering becoming a Maintainer 
 
 ### Fill out your contact details and plans for the extension
 
-* You can do so by filling out the [New Community Extension Maintainer Proposal] issue template and raising a new PR in the repository you would like to become a Maintainer for.
+* You can do so by filling out the [New Community Extension Maintainer Proposal](https://github.com/camunda-community-hub/community/issues/new?assignees=&labels=abandoned-extension-maintainer-proposal&template=abandoned-extension-maintainer-proposal.md&title=Abandoned+Extension+Maintainer+Proposal) issue template and raising a new PR in the repository you would like to become a Maintainer for.
 * Communicate your plans for the extension in your proposal
 ** If your plans are primarily code-based, please open a pull request with your proposed changes to the extension
 ** What is your roadmap going to look like?
