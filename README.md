@@ -16,9 +16,6 @@
 - [Automated Releases](#automated-releases)
 - [What to include in your extension's README file](#what-to-include-in-your-extensions-readme-file)
 - [Optional information to include in your README file](#optional-information-to-include-in-your-readme-file)
-- [Non-code Camunda community extension contributions](#non-code-camunda-community-extension-contributions)
-- [Event-Based community roles](#event-based-community-roles)
-- [Community education and onboarding](#community-education-and-onboarding)
 - [Communication guidelines and expectations](#communication-guidelines-and-expectations)
 - [Troubleshooting](#troubleshooting)
 - [Community extension peer support](#community-extension-peer-support)
@@ -186,56 +183,6 @@ Each Camunda community extension will have listed a Maintainer whose responsibil
 ### Automated Releases
 
 For more information on automated releases and how you can utilize automated releasing to Maven Central in the Camunda Community Hub, please view our [automated release](https://github.com/camunda-community-hub/community/blob/main/RELEASE.MD) documentation.
-
-### Non-Code Camunda community extension contributions
-
-If you are interested in contributing to any Camunda Community Hub extension, there are a variety of ways to get involved without having to have coding experience: These include issue triage, writing documentation, and much, much more.
-
-If you are interested in getting started contributing by doing any of these tasks, please complete the following steps:
-
-1. Reach out to Camunda Technical Community Builder Rin Oliver by emailing community@camunda.com
-2. Open a new issue in the Camunda Community Hub repository you'd like to contribute to and detail the non-code contributions that you would like to make.
-3. If you see a 'Good First Issue' relating to non-code contributions (documentation, issues or pull requests that need triaging, process management, etc.) and you'd like to claim it, you are encouraged to /assign it to yourself 
-4. Tag @celanthe in the comments on the issue
-
-Some examples of how you can contribute to the Camunda Community Hub and the broader Camunda open source ecosystem are as follows:
-
-#### Event-Based community roles
-
-* Host or organize a Camunda Community Meetup
-* Present your work with Camunda at Meetups
-* Start a new Camunda event near you
-* Community Education and Onboarding
-
-#### Community education and onboarding
-
-* Help new contributors get started working with the Hub, finding a repository to contribute to, forking a repo, and making their first pull request
-* Getting people involved in writing documentation and issue triage
-* Spreading the word about the Camunda Community Hub to the broader open source community 
-* Answering questions on Slack, Discourse, GitHub Project boards, and the Camunda Cloud community forums
-
-#### Create community content
-
-* Write a blog post about your experience with Camunda, how you built a Community Hub Extension, etc.
-* Be a guest on our Camunda Nation podcast
-* Write walkthroughs, how-to guides, and more
-
-#### Issue triage
-
-* Labelling issues in Camunda Community Extension repositories
-* Helping to triage issues by following up where needed, closing stale issues, and more
-
-For more information on how to get started with issue triage and labelling, including what issue labels and pull request automation we use in the Camunda Community Hub, please [read the documentation](https://github.com/Camunda-Community-Hub/community/blob/main/issue-triage.md)
-
-#### Post-Code specific contributions
-
-These are roles that are not code-based, but require some knowledge in that you will need to have an understanding of the Camunda Community Extension ecosystem, the Camunda codebase, or general programming knowledge.
-
-* Help project Maintainers write release notes for their extension
-* GitHub management (tags, repositories, etc.)
-* Mentoring new contributors and ensuring they have the tools they need to succeed when contributing to a Camunda Community Hub open source project
-* Writing new or editing existing documentation
-* Updating communication guidelines and expectations
 
 ### Communication guidelines and expectations
 
