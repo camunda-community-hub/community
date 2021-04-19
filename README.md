@@ -56,20 +56,14 @@ If you are transferring a repository owned by your **user account**, please revi
 
 The first step to creating a community extension is to ensure that your Git configuration email address is confirmed and matches your email address listed on GitHub. If you are interested in building a new Camunda Community Hub extension and have not done so previously, please follow these instructions. 
 
-1. [Set and confirm your commit email address](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address) in Git. For more information on how to set your email address in GitHub, you can read the [GitHub documentation](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address) which goes into much more detail on the subject. 
-
-2. Sign the CLA and agree to the Code of Conduct
-
-Once you’ve decided to move forward with creating your community extension, the next step is to sign our [CLA](https://cla-assistant.io/camunda/) and agree to abide by our [Code of Conduct](https://camunda.com/events/code-conduct/). Next, you can browse the hub to see if there is an extension that already matches your idea. Alternatively, you can join the Camunda Cloud, Camunda Platform, and BPMN forums and post your idea in the Community Extensions thread. 
-
-3. Create a new repository. Title the repository with the name of your proposed extension.
-4. Open a New Community Extension proposal
-
-To open a new Community Extensions Proposal in the Camunda Community Hub, you can do so by viewing the [issue tracker](https://github.com/Camunda-Community-Hub/community/issues/new/choose). Next, select ‘New Community Extension Proposal,’ from the available template options. After completing the template, open the issue and give it a meaningful title.
-
-5. Evaluate your extension's lifecycle status
-
-Once your extension proposal issue has been opened, use your best judegement after reviewing our [community extension lifecycle documentation](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md) to identify where in the development process your extension is currently and add it to your extension's README along with a community extension lifecycle label. 
+* [Set and confirm your commit email address](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address) in Git. For more information on how to set your email address in GitHub, you can read the [GitHub documentation](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address) which goes into much more detail on the subject. 
+* Sign the CLA and agree to the Code of Conduct
+* * Once you’ve decided to move forward with creating your community extension, the next step is to sign our [CLA](https://cla-assistant.io/camunda/) and agree to abide by our [Code of Conduct](https://camunda.com/events/code-conduct/). Next, you can browse the hub to see if there is an extension that already matches your idea. Alternatively, you can join the Camunda Cloud, Camunda Platform, and BPMN forums and post your idea in the Community Extensions thread. 
+* Create a new repository. Title the repository with the name of your proposed extension.
+* Open a New Community Extension proposal
+* * To open a new Community Extensions Proposal in the Camunda Community Hub, you can do so by viewing the [issue tracker](https://github.com/Camunda-Community-Hub/community/issues/new/choose). Next, select ‘New Community Extension Proposal,’ from the available template options. After completing the template, open the issue and give it a meaningful title.
+* Evaluate your extension's lifecycle status
+** Once your extension proposal issue has been opened, use your best judegement after reviewing our [community extension lifecycle documentation](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md) to identify where in the development process your extension is currently and add it to your extension's README along with a community extension lifecycle label. 
 
 *Note that if your extension is new and/or untested, the label to apply to it should always be 'proof-of-concept.' 
 
