@@ -32,6 +32,44 @@ Here are a few things you can do that will increase the likelihood of your pull 
 
 Work in Progress pull requests are also welcome to get feedback early on, or if there is something blocked you.
 
+## Non-Code Camunda community extension contributions
+
+If you are interested in contributing to any Camunda Community Hub extension, there are a variety of ways to get involved without having to have coding experience: These include issue triage, writing documentation, and much, much more.
+
+### Event-Based community roles
+
+* Host or organize a Camunda Community Meetup
+* Present your work with Camunda at Meetups
+* Start a new Camunda event near you
+
+### Community education and onboarding
+
+* Help new contributors get started working with the Hub, finding a repository to contribute to, forking a repo, and making their first pull request
+* Getting people involved in writing documentation and issue triage
+* Spreading the word about the Camunda Community Hub to the broader open source community
+* Answering questions on Slack, Discourse, GitHub Project boards, and the Camunda Cloud community forums
+* Create community content
+* Write a blog post about your experience with Camunda, how you built a Community Hub Extension, etc.
+* Be a guest on our Camunda Nation podcast
+* Write walkthroughs, how-to guides, and more
+*
+### Issue triage
+
+* Labelling issues in Camunda Community Extension repositories
+* Helping to triage issues by following up where needed, closing stale issues, and more
+* For more information on how to get started with issue triage and labelling, including what issue labels and pull request automation we use in the Camunda Community Hub, please read the [documentation](https://github.com/camunda-community-hub/community/blob/main/issue-triage.md)
+
+### Post-Code specific contributions
+
+These are roles that are not code-based, but require some knowledge in that you will need to have an understanding of the Camunda Community Extension ecosystem, the Camunda codebase, or general programming knowledge.
+
+### Help project maintainers write release notes for their extension
+
+* GitHub management (tags, repositories, etc.)
+* Mentoring new contributors and ensuring they have the tools they need to succeed when contributing to a Camunda Community Hub open source project
+* Writing new or editing existing documentation
+* Updating communication guidelines and expectations
+
 ## Resources
 
 - [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
