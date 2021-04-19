@@ -6,9 +6,6 @@
 - [What is the Camunda Community Hub](#what-is-the-camunda-community-hub)
 - [Why migrate to the hub](#why-migrate-to-the-hub)
 - [Getting started](#getting-started)
-- [Sign the CLA and agree to the Code of Conduct](#sign-the-cla-and-agree-to-the-code-of-conduct)
-- [Open a New Community Extension proposal](#open-a-new-community-extension-proposal)
-- [Extension Lifecycle](#extension-lifecycle)
 - [Issue triage and labelling](#issue-triage-and-labelling)
 - [Maintainer expectations](#maintainer-expectations)
 - [Reviewer expectations](#reviewer-expectations)
@@ -31,21 +28,17 @@ If you have a question related to getting started contributing to the Camunda op
 
 ### Why migrate to the hub?
 
-The Camunda Community Hub aims to make the process of contributing to, maintaining, and using Camunda Community Extensions more efficient. This reduces a number of issues regarding the continued maintenance and infrastructure related to community extensions, creating a better experience for users as well as maintainers.
-
-Here are some advantages to your extension being listed under the Camunda Community Hub:
+The Camunda Community Hub aims to make the process of contributing to, maintaining, and using Camunda Community Extensions more efficient. This reduces a number of issues regarding the continued maintenance and infrastructure related to community extensions, creating a better experience for users as well as maintainers. Here are some advantages to your extension being listed under the Camunda Community Hub:
 
 * Automated publishing of your Camunda extension's Maven releases to Maven Central, with more automation on the way for different programming languages
-* Automated testing
+* Automated releases
 * Automated issue and pull request labelling 
 * Improved issue triage process 
 * Improved visibility as to where an extension is in its lifecycle
 * Consistent formatting of new issues and releases with new templates and tooling
 * Visibility of your project for new contributors interested in getting involved with open source software
 
-The Camunda Community Hub aims to help extension maintainers coordinate, cross-test, and ensure that extensions hosted under the Hub can be used without causing conflict with other applications. It is important to note that community extensions are maintained by the community, and are not maintained or officially supported by Camunda. 
-
-For questions/support relating to the commercial Camunda Cloud and Camunda Platform offerings, please [contact us](https://camunda.com/contact/).
+The Camunda Community Hub aims to help extension maintainers coordinate, cross-test, and ensure that extensions hosted under the Hub can be used without causing conflict with other applications. It is important to note that community extensions are maintained by the community, and are not maintained or officially supported by Camunda. For questions/support relating to the commercial Camunda Cloud and Camunda Platform offerings, please [contact us](https://camunda.com/contact/).
 
 ### Getting started
 
@@ -61,66 +54,24 @@ If you are transferring a repository owned by your **user account**, please revi
 
 ### Creating a new Camunda community extension
 
-If you are interested in building a new Camunda Community Hub extension and have not done so previously, please follow these instructions.
+The first step to creating a community extension is to ensure that your Git configuration email address is confirmed and matches your email address listed on GitHub. If you are interested in building a new Camunda Community Hub extension and have not done so previously, please follow these instructions. 
 
-#### Set and confirm your email address in Git
+1. [Set and confirm your commit email address](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address) in Git. For more information on how to set your email address in GitHub, you can read the [GitHub documentation](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address) which goes into much more detail on the subject. 
 
-The first step to creating a community extension is to ensure that your Git configuration email address is confirmed and matches your email address listed on GitHub.
+2. Sign the CLA and agree to the Code of Conduct
 
-If you haven't [set your commit email address in Git](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address), you can find the full instructions for doing so by clicking the link above.
+Once you’ve decided to move forward with creating your community extension, the next step is to sign our [CLA](https://cla-assistant.io/camunda/) and agree to abide by our [Code of Conduct](https://camunda.com/events/code-conduct/). Next, you can browse the hub to see if there is an extension that already matches your idea. Alternatively, you can join the Camunda Cloud, Camunda Platform, and BPMN forums and post your idea in the Community Extensions thread. 
 
-Here are the steps to take in order to set your Git commit address from the command line for every repository on your computer:
+3. Create a new repository. Title the repository with the name of your proposed extension.
+4. Open a New Community Extension proposal
 
-1. Open the Terminal.
-2. Set an email address in Git. You can use your GitHub-provided no-reply email address or any email address. On the command line, enter:
+To open a new Community Extensions Proposal in the Camunda Community Hub, you can do so by viewing the [issue tracker](https://github.com/Camunda-Community-Hub/community/issues/new/choose). Next, select ‘New Community Extension Proposal,’ from the available template options. After completing the template, open the issue and give it a meaningful title.
 
-`$ git config --global user.email "email@example.com"`
+5. Evaluate your extension's lifecycle status
 
-4. Confirm that you have set the email address correctly in Git:
+Once your extension proposal issue has been opened, use your best judegement after reviewing our [community extension lifecycle documentation](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md) to identify where in the development process your extension is currently and add it to your extension's README along with a community extension lifecycle label. 
 
-```
-$ git config --global user.email
-email@example.com
-```
-
-Add the associated email address to your account on GitHub, so that your commits are attributed to you and appear in your contributions graph. If you'd like to set your email address for working within this individual repository, you can do so by following these steps:
-
-1. Open a new Terminal window, and navigate to your current working directory in the repository you'd like to update the email address for:
-
-`$ git config user.email "email@example.com"`
-
-2. Confirm that you've set the email address correctly in Git:
-
-```
-$ git config user.email
-email@example.com
-```
-
-3. To verify the change has taken effect, enter the following in your Terminal:
-
-`$ git config --list`
-
-For more information on how to set your email address in GitHub, you can read the [GitHub documentation](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address) which goes into much more detail on the subject. 
-
-#### Sign the CLA and agree to the Code of Conduct
-
-Once you’ve decided to move forward with creating your community extension, the next step is to sign our [CLA](https://cla-assistant.io/camunda/) and agree to abide by our [Code of Conduct](https://camunda.com/events/code-conduct/).
-
-Next, you can browse the hub to see if there is an extension that already matches your idea. Alternatively, you can join the Camunda Cloud, Camunda Platform, and BPMN forums and post your idea in the Community Extensions thread. 
-
-#### Create a new repository
-
-Title the repository with the name of your proposed extension.
-
-#### Open a New Community Extension proposal
-
-Then, you’ll open a new issue in the Camunda Community Hub [issue tracker](https://github.com/Camunda-Community-Hub/community/issues/new/choose). Select ‘New Community Extension Proposal,’ from the available template options and follow the instructions listed there. 
-
-#### Extension lifecycle
-
-Once your extension proposal issue has been opened, use your best judegement after reviewing our [community extension lifecycle documentation](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md) to identify where in the development process your extension is currently. You can select the applicable label from [this list](https://github.com/Camunda-Community-Hub/community/blob/main/issue-triage.md).
-
-Note that if your extension is brand new, the label to apply to it should always be proof-of-concept. 
+*Note that if your extension is new and/or untested, the label to apply to it should always be 'proof-of-concept.' 
 
 ### Issue triage and labelling
 
@@ -128,9 +79,7 @@ For further information on Issue Triage & Labelling in the Camunda Community Hub
 
 ### Maintainer expectations
 
-Maintainers are often the first point of contact that new contributors have with an open source project, and significantly impact the way that the community is perceived. As such, Community Extension Maintainers are a crucial part of the Camunda open source community, and in shaping the Camunda Community Extension Hub. 
-
-Both extension maintainers and reviewers should remember to abide by the Camunda Code of Conduct when communicating with community members. They should also strive to exceed expectations, exemplifying kindness, respectfulness, and collaboration.
+Maintainers are often the first point of contact that new contributors have with an open source project, and significantly impact the way that the community is perceived. As such, Community Extension Maintainers are a crucial part of the Camunda open source community, and in shaping the Camunda Community Extension Hub. Both extension maintainers and reviewers should remember to abide by the Camunda Code of Conduct when communicating with community members. They should also strive to exceed expectations, exemplifying kindness, respectfulness, and collaboration.
 
 - Maintainers and reviewers are encouraged to review open pull requests on a cadence basis, determined by the project maintainer if a project is in the Proof-of-Concept or Incubation [extension lifecycle stage](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md). 
 
@@ -141,6 +90,10 @@ If an extension maintainer wishes for an extension to be listed as a Stable Comm
 
 If you are a contributor that would like to take over maintaining an extension in the Camunda Community hub that has the Lifecycle: Abandoned or 'Maintainer Wanted' labels, please review [becoming a Maintainer of an abandoned extension](https://github.com/camunda-community-hub/community/blob/main/abandoned-extension-maintainer-guidelines.MD)
 
+#### Identifying a project maintainer
+
+Each Camunda community extension will have listed a Maintainer whose responsibility it is to maintain the extension and drive its progression forward. 
+
 ### Reviewer expectations
 
 Reviewers can be anyone who is interested in contributing to an extension. They are primairily responsible for reviewing open pull requests (PRs) in a project, are expected to leave helpful feedback where necessary, assign issue triage labels, ask clarifying questions, and to understand the inner workings of the extension whose pull requests they are reviewing. They are encouraged to review any open PRs on a regular basis, which is often determined by the extension's maintainer. 
@@ -150,11 +103,7 @@ Reviewers can also review open pull requests at any time that works for them out
 * Reviewers contributing to a Stable Camunda Community Extension are expected to review open pull requests assigned to them in a timely manner
     * If a reviewer fails to respond, a PR may be reassigned to another reviewer after three attempts to contact the reviewer
     * If you are a Camunda Community Extension reviewer, and you are going to be away for an extended period, or no longer have time to dedicate to issue review, please notify the project Maintainer, and remove yourself from any existing documentation that lists you as an active reviewer
-    * Reviewers and Maintainers are expected to adhere to our guidelines surrounding [issue triage and labelling](https://github.com/Camunda-Community-Hub/community/blob/main/issue-triage.md) for Stable Community Extensions
-
-#### Identifying a project maintainer
-
-Each Camunda community extension will have listed a Maintainer whose responsibility it is to maintain the extension and drive its progression forward. 
+    * Reviewers and Maintainers are expected to adhere to our guidelines surrounding [issue triage and labelling](https://github.com/Camunda-Community-Hub/community/blob/main/issue-triage.md) for Stable Community Extensions.
 
 ### What to include in your extension's README file
 
@@ -180,7 +129,7 @@ Each Camunda community extension will have listed a Maintainer whose responsibil
 * Roadmap -- GitHub [project boards](https://docs.github.com/en/github/managing-your-work-on-github/about-project-boards) are a great way to showcase your roadmap for your extension. If you have one set up, it’s a good idea to link to it in your README.
 * Make the steps to get started with your extension clear to understand for those that may not have a similar background to yourself
 
-### Automated Releases
+### Automated releases
 
 For more information on automated releases and how you can utilize automated releasing to Maven Central in the Camunda Community Hub, please view our [automated release](https://github.com/camunda-community-hub/community/blob/main/RELEASE.MD) documentation.
 
@@ -191,13 +140,11 @@ As is the nature of open source software, maintainers and extension creators oft
 Keep in mind that communication styles vary, and no two individuals communicate in the same way. Please do your best to remain helpful, and try to avoid making sweeping demands or generalizations whenever possible. It is expected that Maintainers will follow the Camunda Code of Conduct when interacting with community members, and the same holds true for community members interacting with extension maintainers.
 
 **Not ideal:** “This feature doesn’t work, please fix it!” 
-
 **Preferred:** “This feature doesn’t work as expected when I [do XYZ], do you have any suggestions as to how I can fix it? Thank you so much!”
 
 When closing a pull request as a community extension maintainer, please keep in mind the following examples of helpful communication:
 
 **Not ideal** “This is not following the current pull request conventions! I’m closing this issue.”
-
 **Preferred:** “I am closing this PR because this extension can’t support [use case]. In its current form, it would be improved by/better contributed to [XYZ]. Thank you so much for your work on this!”
 
 ### Troubleshooting
@@ -206,17 +153,15 @@ If you are struggling, the best thing to do is to reach out to the Camunda commu
 
 ### Community extension peer support
 
-If you’re encountering a problem, remember that the community is here to help! Please feel free to start a post on the Camunda Cloud Discourse forums, or the Camunda Community Hub GitHub project board.
+If you’re encountering a problem, remember that the community is here to help! Please feel free to start a post on the Camunda Cloud Discourse forums, or the Camunda Community Hub GitHub project board. If you are struggling with creating a Camunda community extension, please open a Pull Request using the provided template. We highly encourage you to post on the Camunda community forums about your extension, its wider impact for the open source community, and what made you decide to build a community extension. These are as follows:
 
-If you are struggling with creating a Camunda community extension, please open a Pull Request using the provided template.
-
-We highly encourage you to post on the Camunda community forums about your extension, its wider impact for the open source community, and what made you decide to build a community extension.
+* [Camunda Platform](https://forum.camunda.org/)
+* [Camunda Cloud](https://forum.camunda.io/)
+* [BPMN.io](https://forum.bpmn.io/)
 
 ### Meet the Camunda Developer Relations team
 
-The [Camunda Developer Relations team](https://github.com/Camunda-Community-Hub/devrel-team) exists to serve the Camunda developer community, from internal employees to Open Source contributors, Enterprise customers, and the broader tech community.
-
-It is our goal to provide opportunities for developers to be more successful by making them aware of our solutions, enabling them to be successful through great experiences, and fostering a culture of collaboration.
+The [Camunda Developer Relations team](https://github.com/Camunda-Community-Hub/devrel-team) exists to serve the Camunda developer community, from internal employees to Open Source contributors, Enterprise customers, and the broader tech community. It is our goal to provide opportunities for developers to be more successful by making them aware of our solutions, enabling them to be successful through great experiences, and fostering a culture of collaboration.
 
 ### Inspiration
 
