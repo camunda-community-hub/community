@@ -34,13 +34,15 @@ To use one of the Shields.io badges in your extension's README, copy the <code>i
 
 ### Abandoned <img src="https://img.shields.io/badge/Lifecycle-Abandoned-lightgrey" alt="Light gray Shields.io badge that reads Lifecycle: Abandoned">
 * Extensions are considered abandoned when the project’s owner is no longer updating the extension, or has not responded to open issues or pull requests within 30 days, or has notified a Camunda team member via [this template] that they are no longer actively maintaining the extension. 
+* To add this badge to your repository, add the following code at the top of your extension's README file: ```[![](https://img.shields.io/badge/Lifecycle-Abandoned-lightgrey)](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md#abandoned-)```
 * If you are interested in stepping up to maintain an abandoned extension, please open a new pull request using the Extension Review Template and complete the ‘New Maintainer Suggestion’ Section
-* * If you are a Maintainer that is no longer able to Maintain your extension, you can add the 'Needs Maintainer' Shields.io badge to your extension's README file to help notify others that the extension is in need of a Maintainer. <img src="https://img.shields.io/badge/Lifecycle-Needs%20Maintainer%20-ff69b4" alt="Hot pink Shields.io badge that reads Lifecycle: Needs Maintainer">
-* * To add this badge to your repository, add the following code at the top of your extension's README file: ```[![](https://img.shields.io/badge/Lifecycle-Needs%20Maintainer%20-ff69b4)](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md#abandoned-)```
 * In your request, please be sure to detail as much as possible your plans for maintaining the extension moving forward, and please link to a discussion that shows you have made a good faith effort to contact the extension’s original developer.
-* Requesting removal of a community extension
+* If you are a Maintainer that is no longer able to Maintain your extension, you can add the 'Needs Maintainer' Shields.io badge to your extension's README file to help notify others that the extension is in need of a Maintainer. <img src="https://img.shields.io/badge/Lifecycle-Needs%20Maintainer%20-ff69b4" alt="Hot pink Shields.io badge that reads Lifecycle: Needs Maintainer">
+* To add this badge to your repository, add the following code at the top of your extension's README file: ```[![](https://img.shields.io/badge/Lifecycle-Needs%20Maintainer%20-ff69b4)](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md#abandoned-)```
+
+### Requesting removal of a community extension
 * When an extension has critical bugs and is not actively maintained, it may need to be removed from the Camunda Community Hub. To facilitate this process, please complete the following steps:
 * Open an issue on the issue tracker for the extension
 * Wait 30 days for a response from the project maintainer
 * If no response is received, or a maintainer confirms that they no longer wish to maintain the project, follow the steps outlined in the Extension Review Template which will notify the Camunda team to remove the extension from the Community Hub and any existing Camunda documentation. 
-* To add this badge to your repository, add the following code at the top of your extension's README file: ```[![](https://img.shields.io/badge/Lifecycle-Abandoned-lightgrey)](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md#abandoned-)```
+
