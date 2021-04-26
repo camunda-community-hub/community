@@ -44,17 +44,17 @@ The Camunda Community Hub aims to help extension maintainers coordinate, cross-t
 
 In order to work within the Camunda Community Hub, Maintainers are asked to transfer their repository into the Camunda Community Hub, rather than fork it into the Hub. When you migrate your extension into the Camunda Community Hub, we will receive your contact information and may occasionally reach out to you with questions, information, etc. You *will not* be added to any marketing lists, but you may be contacted by us or Camunda Community Hub open source contributors.
 
-The first step to take is to [open an issue](https://github.com/camunda-community-hub/community/issues) in this repository and ask to be invited to join the Camunda Community Hub.
+The first step to take is to [open an issue](https://github.com/camunda-community-hub/community/issues) in this repository and ask to be invited to join the Camunda Community Hub if you are not already a collaborator there.
 
 #### Working with an existing Camunda community extension repository
 
-Next, you will need to transfer your repository into the Camunda Community Hub. You can find the instructions for transferring a repository **owned by your organization** [here](https://docs.github.com/en/github/administering-a-repository/transferring-a-repository#transferring-a-repository-owned-by-your-organization)
+Next, you will need to open an issue in your repository titled 'Transfer (your repository) into the Camunda Community Hub' and assign it to @celanthe, or tag them in a comment on the issue itself if you are unable to assign the issue to them. From there, they will then start the process of getting the repository transferred into the Hub. 
 
-If you are transferring a repository owned by your **user account**, please review the existing [documentation on GitHub.](https://docs.github.com/en/github/administering-a-repository/transferring-a-repository#transferring-a-repository-owned-by-your-user-account)
+Once the repository has transferred, you can proceed to [the next step](/what-to-include-in-your-extensions-readme-file.md) and follow the instructions there.
 
 ### Creating a new Camunda community extension
 
-The first step to creating a community extension is to ensure that your Git configuration email address is confirmed and matches your email address listed on GitHub. If you are interested in building a new Camunda Community Hub extension and have not done so previously, please follow these instructions. 
+The first step to creating a new Camunda community extension is to ensure that your Git configuration email address is confirmed and matches your email address listed on GitHub. If you are interested in building a new Camunda Community Hub extension and have not done so previously, please follow these instructions. 
 
 * [Set and confirm your commit email address](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address) in Git. For more information on how to set your email address in GitHub, you can read the [GitHub documentation](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address) which goes into much more detail on the subject. 
 * Sign the CLA and agree to the Code of Conduct
