@@ -50,7 +50,7 @@ The first step to take is to [open an issue](https://github.com/camunda-communit
 
 Next, you will need to open an issue in your repository titled 'Transfer (your repository) into the Camunda Community Hub' and assign it to @celanthe, or tag them in a comment on the issue itself if you are unable to assign the issue to them. From there, they will then start the process of getting the repository transferred into the Hub. 
 
-Once the repository has transferred, you can proceed to [the next step](/what-to-include-in-your-extensions-readme-file.md) and follow the instructions there.
+Once the repository has transferred, you can proceed to [the next step](https://github.com/camunda-community-hub/community/blob/main/README.md#what-to-include-in-your-extensions-readme-file) and follow the instructions there.
 
 ### Creating a new Camunda community extension
 
