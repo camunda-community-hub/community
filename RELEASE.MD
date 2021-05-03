@@ -6,7 +6,7 @@ Releases are automated in the Camunda Community Hub via [GitHub Actions](https:/
 
 1. To perform a new release, a repository Maintainer should create a new Release using https://github.com/camunda-community-hub/:repo/releases/new (replace `:repo` with name of repository). 
 
-2/ This will trigger the release flow, which uses `mvn release:prepare release:perform` to build, sign, and deploy the released version to Maven Central, and will push the generated tags once the process has completed.
+2. This will trigger the release flow, which uses `mvn release:prepare release:perform` to build, sign, and deploy the released version to Maven Central, and will push the generated tags once the process has completed.
 
 > ![A BPMN diagram of the release workflow](https://i.imgur.com/bx51tdE.png)
 > Image description: BPMN workflow <code> StartEvent</code> with the text, 'Are you Maintainer?' branching to 'Create issue to ask maintainer for release,' and an <code>EndEvent</code>. 
