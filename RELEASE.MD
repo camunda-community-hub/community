@@ -8,7 +8,7 @@ Releases are automated in the Camunda Community Hub via [GitHub Actions](https:/
 
 2. This will trigger the release flow, which uses `mvn release:prepare release:perform` to build, sign, and deploy the released version to Maven Central, and will push the generated tags once the process has completed.
 
-> ![A BPMN diagram of the release workflow](https://i.imgur.com/bx51tdE.png)
+> ![A BPMN diagram of the release workflow](https://github.com/camunda-community-hub/community/blob/main/assets/ReleaseDiagram.png)
 > Image description: BPMN workflow <code> StartEvent</code> with the text, 'Are you Maintainer?' branching to 'Create issue to ask maintainer for release,' and an <code>EndEvent</code>. 
 > The gateway branches into a <code>SendTask</code>that is 'Create release with X,Y,Z' a <code>RecieveTask</code> that is 'Wait for workflow', a <code>Task</code> that is, 'Ask for signing of the release,' and finally a <code>EndEvent</code>
 > The event Sub-Task <code>ReceiveTask</code> 'Release triggers workflow' begins, the <code>Task</code>'Perform mvn release,' is completed, and the <code>SendTask</code>'Workflow done' task ends.
