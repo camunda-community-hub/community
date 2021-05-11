@@ -54,7 +54,7 @@ Once the repository has transferred, you can proceed to [the next step](https://
 
 #### Transferring a repository in your personal GitHub Account
 
-You will then need to follow these instructions for transferring a repository in your own personal GitHub user account into the Camunda Community Hub: https://docs.github.com/en/github/administering-a-repository/transferring-a-repository#transferring-a-repository-owned-by-your-user-account
+You will need to follow these instructions for transferring a repository in your own personal GitHub user account into the Camunda Community Hub: https://docs.github.com/en/github/administering-a-repository/transferring-a-repository#transferring-a-repository-owned-by-your-user-account
 
 #### Transferring a repository in your company's organization
 
