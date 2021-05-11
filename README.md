@@ -46,11 +46,19 @@ In order to work within the Camunda Community Hub, Maintainers are asked to tran
 
 The first step to take is to [open an issue](https://github.com/camunda-community-hub/community/issues) in this repository and ask to be invited to join the Camunda Community Hub if you are not already a collaborator there.
 
-#### Working with an existing Camunda community extension repository
+#### Transferring an existing Camunda community extension repository in a Camunda organization
 
 Next, you will need to open an issue in your repository titled 'Transfer (your repository) into the Camunda Community Hub' and assign it to @celanthe, or tag them in a comment on the issue itself if you are unable to assign the issue to them. From there, they will then start the process of getting the repository transferred into the Hub. 
 
 Once the repository has transferred, you can proceed to [the next step](https://github.com/camunda-community-hub/community/blob/main/README.md#what-to-include-in-your-extensions-readme-file) and follow the instructions there.
+
+#### Transferring a repository in your personal GitHub Account
+
+You will then need to follow these instructions for transferring a repository in your own personal GitHub user account into the Camunda Community Hub: https://docs.github.com/en/github/administering-a-repository/transferring-a-repository#transferring-a-repository-owned-by-your-user-account
+
+#### Transferring a repository in your company's organization
+
+To transfer a repository in your company's GitHub organization into the Camunda Community Hub, please review the process documented at: https://docs.github.com/en/github/administering-a-repository/transferring-a-repository#transferring-a-repository-owned-by-your-organization
 
 ### Creating a new Camunda community extension
 
