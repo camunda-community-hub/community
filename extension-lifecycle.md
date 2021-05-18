@@ -10,6 +10,15 @@ To use one of the Shields.io badges in your extension's README, copy the <code>i
 * This badge designates that an extension is maintained by the open source community
 * To add this badge to your repository, add the following code at the top of your extenion's README file ```[![](https://img.shields.io/badge/Community%20Extension-An%20open%20source%20community%20maintained%20project-FF4700)](https://github.com/camunda-community-hub/community)```
 
+### Educational Tooling <img src="https://img.shields.io/badge/Educational%20Tooling-Project%20for%20getting%20started%20with%20Camunda%20for%20educators-%239F2B68" alt="a purple badge that reads 'Educational Tooling - Project for getting started with Camunda for educators'">
+
+* This badge designates that an extension is used for getting started with Camunda for educators and university programs
+* To add this badge to your repository, add the following code at the top of your extension's README file ```[![](https://img.shields.io/badge/Educational%20Tooling-Project%20for%20getting%20started%20with%20Camunda%20for%20educators-%239F2B68)```
+
+### Tutorial Reference Project <img src="https://img.shields.io/badge/Tutorial%20Reference%20Project-Tutorials%20for%20getting%20started%20with%20Camunda-%2338A3E1" alt="A blue badge that reads: 'Tutorial Reference Project - Tutorials for getting started with Camunda'">
+
+* This badge designates that an extension is a tutorial or part of a video tutorial series used for getting started with Camunda
+
 ### Proof-of-Concept <img src="https://img.shields.io/badge/Lifecycle-Proof%20of%20Concept-blueviolet" alt="Violet purple Shields.io badge that reads Lifecycle: Proof of Concept">
 * Proof-of-Concept/experimental extensions are just that, ideas that community members would like to explore further. 
 * They offer little support, nor do they promise any stability. 
