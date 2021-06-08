@@ -4,8 +4,13 @@ Releases are automated in the Camunda Community Hub via [GitHub Actions](https:/
 
 ### Performing a release
 
+1. If this is your first release in the Camunda Community Hub, you will then need to register your repository by opening a pull request in the [Camunda Infrastructure](https://github.com/camunda-community-hub/infrastructure) repo and follow the instructions listed for [onboarding a new repository](https://github.com/camunda-community-hub/infrastructure#use-case-onboarding-a-new-community-hub-repository).
+
 1. Make sure to update your POM using the credentials and instructions found in the [Community Action Maven Release documentation](https://github.com/camunda-community-hub/community-action-maven-release)
-2. Create a new Release using https://github.com/camunda-community-hub/:repo/releases/new (replace `:repo` with name of repository). 
+
+2. Create a GitHub Action in your repository copying the code from [Community Action Maven Release documentation](https://github.com/camunda-community-hub/community-action-maven-release) 
+
+4. Create a new Release using https://github.com/camunda-community-hub/:repo/releases/new (replace `:repo` with name of repository). 
 
 3. This will trigger the release flow, which uses `mvn release:prepare release:perform` to build, sign, and deploy the released version to Maven Central, and will push the generated tags once the process has completed.
 
@@ -14,9 +19,7 @@ Releases are automated in the Camunda Community Hub via [GitHub Actions](https:/
 > The gateway branches into a <code>SendTask</code>that is 'Create release with X,Y,Z' a <code>RecieveTask</code> that is 'Wait for workflow', a <code>Task</code> that is, 'Ask for signing of the release,' and finally a <code>EndEvent</code>
 > The event Sub-Task <code>ReceiveTask</code> 'Release triggers workflow' begins, the <code>Task</code>'Perform mvn release,' is completed, and the <code>SendTask</code>'Workflow done' task ends.
 
-4. If this is your first release in the Camunda Community Hub, you will then need to register your repository by opening a pull request in the [Camunda Infrastructure](https://github.com/camunda-community-hub/infrastructure) repo and follow the instructions listed for [onboarding a new repository](https://github.com/camunda-community-hub/infrastructure#use-case-onboarding-a-new-community-hub-repository).
-
-5. After your release workflow has been set up using GitHub Actions and a new release has been built and staged, your next step is to open a new issue in your repository and assign it to [@celanthe](https://github.com/celanthe) with a waiting-for-camunda [issue label](https://github.com/camunda-community-hub/template-repo/labels) applied. They will then review your pull request and release the artifact to Maven Central. After an artifact has been released, it can take up to an hour to be retrievable, and 2-3 hours for it to be reflected on the public page of the artifact.
+5. After a new release has been built and staged, your next step is to open a new issue in your repository and assign it to [@celanthe](https://github.com/celanthe) with a waiting-for-camunda [issue label](https://github.com/camunda-community-hub/template-repo/labels) applied. They will then review your pull request and release the artifact to Maven Central. After an artifact has been released, it can take up to an hour to be retrievable, and 2-3 hours for it to be reflected on the public page of the artifact.
 
 ### FAQ
 
