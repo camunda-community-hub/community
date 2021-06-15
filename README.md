@@ -11,6 +11,7 @@
 - [Reviewer expectations](#reviewer-expectations)
 - [Identifying a project maintainer](#identifying-a-project-maintainer)
 - [Automated Releases](#automated-releases)
+- [Unified GroupID](#group-id)
 - [What to include in your extension's README file](#what-to-include-in-your-extensions-readme-file)
 - [Optional information to include in your README file](#optional-information-to-include-in-your-readme-file)
 - [Communication guidelines and expectations](#communication-guidelines-and-expectations)
@@ -134,6 +135,10 @@ Reviewers can also review open pull requests at any time that works for them out
 ### Automated releases
 
 For more information on automated releases and how you can utilize automated releasing to Maven Central in the Camunda Community Hub, please view our [automated release](https://github.com/camunda-community-hub/community/blob/main/RELEASE.MD) documentation.
+
+### Group ID 
+
+The Camunda Commmunity Hub members have decided to operate under a centralized GroupID as of January 15th, 2021. To make use of this centralized GroupID in your own projects, including how to relocate your extension's GroupID, please review our [documentation](https://github.com/camunda-community-hub/community/blob/main/RELOCATE_GROUPID.md)
 
 ### Communication guidelines and expectations
 
