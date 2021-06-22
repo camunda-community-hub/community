@@ -47,7 +47,7 @@ To use one of the Shields.io badges in your extension's README, copy the <code>i
 * If you are interested in stepping up to maintain a previously unmaintained extension, please open a new pull request using the Extension Review Template and complete the ‘New Maintainer Suggestion’ Section
 * In your request, please be sure to detail as much as possible your plans for maintaining the extension moving forward, and please link to a discussion that shows you have made a good faith effort to contact the extension’s original developer.
 * If you are a Maintainer that is no longer able to Maintain your extension, you can add the 'Needs Maintainer' Shields.io badge to your extension's README file to help notify others that the extension is in need of a Maintainer. <img src="https://img.shields.io/badge/Lifecycle-Needs%20Maintainer%20-ff69b4" alt="Hot pink Shields.io badge that reads Lifecycle: Needs Maintainer">
-* To add this badge to your repository, add the following code at the top of your extension's README file: ```[![](https://img.shields.io/badge/Lifecycle-Needs%20Maintainer%20-ff69b4)](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md#Unmaintained-)```
+* To add this badge to your repository, add the following code at the top of your extension's README file: ```[![](https://img.shields.io/badge/Maintainer%20Wanted-This%20extension%20is%20in%20search%20of%20a%20Maintainer-ff69b4)```
 
 ### Requesting removal of a community extension
 * When an extension has critical bugs and is not actively maintained, it may need to be removed from the Camunda Community Hub. To facilitate this process, please complete the following steps:
