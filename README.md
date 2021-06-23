@@ -168,7 +168,7 @@ If you’re encountering a problem, remember that the community is here to help!
 
 ### Meet the Camunda Developer Relations team
 
-The [Camunda Developer Relations team](https://github.com/Camunda-Community-Hub/devrel-team) exists to serve the Camunda developer community, from internal employees to Open Source contributors, Enterprise customers, and the broader tech community. It is our goal to provide opportunities for developers to be more successful by making them aware of our solutions, enabling them to be successful through great experiences, and fostering a culture of collaboration.
+The [Camunda Developer Relations team](https://github.com/Camunda-Community-Hub/devrel-team) exists to serve the Camunda developer community, from internal employees to Open Source contributors, Enterprise customers, and the broader tech community. It is our goal to provide opportunities for developers to be more successful by making them aware of our solutions, enabling them to be successful through great experiences, and fostering a culture of collaboration. :)
 
 ### Inspiration
 
