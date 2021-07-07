@@ -43,9 +43,9 @@ The Camunda Community Hub aims to help extension maintainers coordinate, cross-t
 
 ### Getting started
 
-In order to work within the Camunda Community Hub, Maintainers are asked to transfer their repository into the Camunda Community Hub, rather than fork it into the Hub. When you migrate your extension into the Camunda Community Hub, we will receive your contact information and may occasionally reach out to you with questions, information, etc. You *will not* be added to any marketing lists, but you may be contacted by us or Camunda Community Hub open source contributors.
-
 The first step to take is to [open an issue](https://github.com/camunda-community-hub/community/issues) in this repository and ask to be invited to join the Camunda Community Hub if you are not already a collaborator there.
+
+Note: In order to work within the Camunda Community Hub, Maintainers are asked to transfer their repository into the Camunda Community Hub, rather than fork it into the Hub. When you migrate your extension into the Camunda Community Hub, we will receive your contact information and may occasionally reach out to you with questions, information, etc. You *will not* be added to any marketing lists, but you may be contacted by us or Camunda Community Hub open source contributors.
 
 #### Transferring an existing Camunda community extension repository in a Camunda organization
 
