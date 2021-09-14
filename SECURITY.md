@@ -1,9 +1,10 @@
-Security and Dependency Management Policy:
+# Security and Dependency Management Policy:
 
 This document provides help and advice to projects in the Camunda Community hub regarding security issues, and how to handle reporting of security vulnerabilities. 
 As projects in the Camunda Community Hub are community maintained, security prevention is the responsibility of a project’s maintainer. 
-In the Camunda Community Hub, we take security seriously. 
-As open source practitioners, it is our aim to empower those in this space to develop extensions with security best practices in mind. 
+
+In the Camunda Community Hub, we take security seriously.  As open source practitioners, it is our aim to empower those in this space to develop extensions with security best practices in mind. 
+
 We aim to enable our community to work together to provide assistance to all of those involved in the community hub on the ongoing topic of 
 DevSecOps, security, and dependency management. We encourage the community as a whole to work with maintainers, and to open issues that 
 address any security vulnerabilities in a repository according to the guidelines listed in this documentation. 
