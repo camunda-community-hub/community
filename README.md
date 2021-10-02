@@ -115,7 +115,7 @@ Reviewers can also review open pull requests at any time that works for them out
 * We highly suggest that all Camunda community extensions follow our established Style Guide when writing documentation
 * A name that clearly identifies your project
     *  Implement the [Camunda community extension badge](https://img.shields.io/badge/Community%20Extension-An%20open%20source%20community%20maintained%20project-FF4700) if you so choose (this is optional)
-* Installation -- If your project has certain dependencies that need to be installed, it is best practice to detail these in your README file
+* Installation -- If your project has certain dependencies that need to be installed, it is the best practice to detail these in your README file
 * Using your extension -- Give examples of how one might use your extension. Example use cases are helpful, even if they are smaller in scope. For larger project implementation examples, provide links to these rather than having them in your README file.
 * Troubleshooting -- Clearly state the DRI (Directly Responsible Individual) that users of your extension can contact with questions, or if they run into a problem. In most cases this is the extension’s Maintainer, but in some cases it may not be. 
 * While we encourage you to create a general discussion thread on our forums about your extension, please direct users that are having trouble working with your extension for any reason to open an issue on GitHub
