@@ -46,6 +46,6 @@ The following labels apply to community extension related pull requests and issu
 * Priority: Long-Term
 
 * Triage: Needs Information
-* Triage: Not reproducable
+* Triage: Not reproducible
 * Triage: Unresolved
 * Triage: Help wanted

@@ -72,7 +72,7 @@ The first step to creating a new Camunda community extension is to ensure that y
 * Open a New Community Extension proposal
 * * To open a new Community Extension Proposal in the Camunda Community Hub, you can do so by viewing the [issue tracker](https://github.com/Camunda-Community-Hub/community/issues/new/choose). Next, select ‘New Community Extension Proposal,’ from the available template options. After completing the template, open the issue and give it a meaningful title.
 * Evaluate your extension's lifecycle status
-* * Once your extension proposal issue has been opened, use your best judegement after reviewing our [community extension lifecycle documentation](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md) to identify where in the development process your extension is currently and add it to your extension's README along with a community extension lifecycle label. 
+* * Once your extension proposal issue has been opened, use your best judgement after reviewing our [community extension lifecycle documentation](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md) to identify where in the development process your extension is currently and add it to your extension's README along with a community extension lifecycle label. 
 
 *Note that if your extension is new and/or untested, the label to apply to it should always be 'proof-of-concept.' 
 
@@ -99,7 +99,7 @@ Each Camunda community extension will have listed a Maintainer whose responsibil
 
 ### Reviewer expectations
 
-Reviewers can be anyone who is interested in contributing to an extension. They are primairily responsible for reviewing open pull requests (PRs) in a project, are expected to leave helpful feedback where necessary, assign issue triage labels, ask clarifying questions, and to understand the inner workings of the extension whose pull requests they are reviewing. They are encouraged to review any open PRs on a regular basis, which is often determined by the extension's maintainer. 
+Reviewers can be anyone who is interested in contributing to an extension. They are primarily responsible for reviewing open pull requests (PRs) in a project, are expected to leave helpful feedback where necessary, assign issue triage labels, ask clarifying questions, and to understand the inner workings of the extension whose pull requests they are reviewing. They are encouraged to review any open PRs on a regular basis, which is often determined by the extension's maintainer. 
 
 Reviewers can also review open pull requests at any time that works for them outside of any set official issue triage time set by the extension's maintainer. If a maintainer wishes for an extension to be labelled as a Stable Community Extension, they must agree to the following standards for pull request review and issue triage:
 
@@ -138,7 +138,7 @@ For more information on automated releases and how you can utilize automated rel
 
 ### Group ID 
 
-The Camunda Commmunity Hub members have decided to operate under a centralized GroupID as of January 15th, 2021. To make use of this centralized GroupID in your own projects, including how to relocate your extension's GroupID, please review our [documentation](https://github.com/camunda-community-hub/community/blob/main/RELOCATE_GROUPID.md)
+The Camunda Community Hub members have decided to operate under a centralized GroupID as of January 15th, 2021. To make use of this centralized GroupID in your own projects, including how to relocate your extension's GroupID, please review our [documentation](https://github.com/camunda-community-hub/community/blob/main/RELOCATE_GROUPID.md)
 
 ### Communication guidelines and expectations
 

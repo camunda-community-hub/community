@@ -20,7 +20,7 @@ The Camunda Community Code of Conduct also applies to any Camunda online space. 
 
 We trust all of our community members will help to create a safe and welcoming environment for everyone.
 
-### Creating a Harrassment-Free Space
+### Creating a Harassment-Free Space
 
 We are dedicated to providing a harassment-free community space for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, ethnicity, age, physical appearance, religion or similar personal characteristics.
 
