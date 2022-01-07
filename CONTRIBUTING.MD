@@ -40,7 +40,7 @@ If you are interested in contributing to any Camunda Community Hub extension, th
 * Write a blog post about your experience with Camunda, how you built a Community Hub Extension, etc.
 * Be a guest on our Camunda Nation podcast
 * Write walkthroughs, how-to guides, and more
-*
+
 ### Issue triage
 
 * Labelling issues in Camunda Community Extension repositories
