@@ -22,7 +22,7 @@ We trust all of our community members will help to create a safe and welcoming e
 
 ### Creating a Harassment-Free Space
 
-We are dedicated to providing a harassment-free community space for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, ethnicity, age, physical appearance, religion or similar personal characteristics.
+We are dedicated to providing a harassment-free community space for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, ethnicity, age, religion or similar personal characteristics.
 
 We do not tolerate harassment of other Camunda users in any form, whether publicly or privately. Harassment includes, but is not limited to: harmful or prejudicial verbal or written comments, inappropriate use of nudity, sexual images, and/or sexually explicit language in public spaces; threats of physical or non-physical harm; deliberate intimidation, stalking or following; harassing photography or recording; sustained disruption of talks or other events; inappropriate physical contact; and unwelcome sexual attention.
 
