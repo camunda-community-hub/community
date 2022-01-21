@@ -138,7 +138,13 @@ For more information on automated releases and how you can utilize automated rel
 
 ### Group ID 
 
-The Camunda Community Hub members have decided to operate under a centralized GroupID as of January 15th, 2021. To make use of this centralized GroupID in your own projects, including how to relocate your extension's GroupID, please review our [documentation](https://github.com/camunda-community-hub/community/blob/main/RELOCATE_GROUPID.md)
+The Camunda Community Hub members have decided to operate under a centralized GroupID as of January 15th, 2021:
+
+```
+org.camunda.community
+```
+
+To make use of this centralized GroupID in your own projects, including how to relocate your extension's GroupID, please review our [documentation](https://github.com/camunda-community-hub/community/blob/main/RELOCATE_GROUPID.md)
 
 ### Communication guidelines and expectations
 
