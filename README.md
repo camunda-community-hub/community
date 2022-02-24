@@ -25,7 +25,7 @@ The [Camunda Community Hub](https://camunda.com/blog/2021/03/introducing-the-cam
 
 We’ve put together some commonly asked questions and answers as to the benefits of joining the Camunda Community Hub, our approach to open source contributions and Maintainership moving forward, and how we hope to empower our open source community in the future. 
 
-If you have a question related to getting started contributing to the Camunda open source ecosystem, or need to reach out to the Camunda team, the Directly Responsible Individual for the Camunda Community Hub and your first point of contact should be Camunda Technical Community Builder [Rin Oliver](https://github.com/celanthe), who is available via email: community@camunda.com.
+If you have a question related to getting started contributing to the Camunda open source ecosystem, or need to reach out to the Camunda team, the Directly Responsible Individual for the Camunda Community Hub and your first point of contact should be the [Camunda DevRel team](https://github.com/orgs/camunda-community-hub/teams/devrel), available via email: community@camunda.com.
 
 ### Why migrate to the hub?
 
@@ -49,7 +49,7 @@ Note: In order to work within the Camunda Community Hub, Maintainers are asked t
 
 #### Transferring an existing Camunda community extension repository in a Camunda organization
 
-Next, you will need to open an issue in your repository titled 'Transfer (your repository) into the Camunda Community Hub' and assign it to @celanthe, or tag them in a comment on the issue itself if you are unable to assign the issue to them. From there, they will then start the process of getting the repository transferred into the Hub. 
+Next, you will need to open an issue in your repository titled 'Transfer (your repository) into the Camunda Community Hub' and assign it to @camunda-community-hub/DevRel, or tag the [Camunda DevRel team](https://github.com/orgs/camunda-community-hub/teams/devrel) in a comment on the issue itself if you are unable to assign the issue to them. From there, they will then start the process of getting the repository transferred into the Hub. 
 
 Once the repository has transferred, you can proceed to [the next step](https://github.com/camunda-community-hub/community/blob/main/README.md#what-to-include-in-your-extensions-readme-file) and follow the instructions there.
 
