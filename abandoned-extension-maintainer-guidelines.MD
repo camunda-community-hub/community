@@ -17,7 +17,7 @@ Here are some of the first steps to take when considering becoming a Maintainer 
 * Link to a discussion or screenshot of a discussion that shows you have made a good faith effort to contact the extension’s original developer. Note that Maintainers have 30 days to respond.
 ** You can contact our Maintainers via GitHub, or on our community forums.
 * If no response is received within 30 days, please notify the Camunda team at community@camunda.com 
-** If a Maintainer confirms that they no longer wish to maintain the project in question, and that they would like you to take over--First of all, congratulations! Please notify Camunda Technical Community Builder [Rin Oliver](https://github.com/celanthe) on the open issue containing your Maintainer request so that they can assign you the correct repository permissions in the Camunda Community Hub GitHub Organization.
+** If a Maintainer confirms that they no longer wish to maintain the project in question, and that they would like you to take over--First of all, congratulations! Please notify the [Camunda DevRel Team](https://github.com/orgs/camunda-community-hub/teams/devrel) on the open issue containing your Maintainer request so that they can assign you the correct repository permissions in the Camunda Community Hub GitHub Organization.
 
 ### Fill out your contact details and plans for the extension
 
