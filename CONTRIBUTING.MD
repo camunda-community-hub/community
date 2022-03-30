@@ -18,7 +18,7 @@ We'd also love PRs. If you're thinking of a large PR, we advise opening up an is
 
 Please feel free to fork this repository and open a pull request to update this documentation.
 
-Work in Progress pull requests are also welcome to get feedback early on, or if there is something blocked you.
+Work in Progress pull requests are also welcome to get feedback early on, or if there is something blocking you that you would like an additional person to take a look at.
 
 ## Non-Code Camunda community extension contributions
 
