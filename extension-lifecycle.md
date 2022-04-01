@@ -16,7 +16,7 @@ To use one of the Shields.io badges in your extension's README, copy the <code>i
 
 * This badge indicates that your extension is compatible with Camunda Platform 7
 
-<img src="https://img.shields.io/badge/Compatible%20with-Camunda%20Platform%208-0072Ce ">
+<img src="https://img.shields.io/badge/Compatible%20with-Camunda%20Platform%208-0072CE">
 
 * This badge indicates that your extension is compatible with Camunda Platform 8
 
