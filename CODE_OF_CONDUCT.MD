@@ -1,4 +1,4 @@
-# Code of Conduct
+# <a href="https://camunda.com/events/code-conduct/">Code of Conduct</a>
 
 ## Our community is what makes us who we are
 
