@@ -15,10 +15,12 @@ To use one of the Shields.io badges in your extension's README, copy the <code>i
 <img src="https://img.shields.io/badge/Compatible%20with-Camunda%20Platform%207-26d07c"> 
 
 * This badge indicates that your extension is compatible with Camunda Platform 7
+* To add this badge to your repo, add the following code in your extension's README file ```[![](https://img.shields.io/badge/Compatible%20with-Camunda%20Platform%207-26d07c)```
 
 <img src="https://img.shields.io/badge/Compatible%20with-Camunda%20Platform%208-0072CE">
 
 * This badge indicates that your extension is compatible with Camunda Platform 8
+* To add this badge to your repo, add the following code in your extension's README file ```[![](https://img.shields.io/badge/Compatible%20with-Camunda%20Platform%208-0072Ce)```
 
 ### Educational Tooling <img src="https://img.shields.io/badge/Educational%20Tooling-Project%20for%20getting%20started%20with%20Camunda%20for%20educators-%239F2B68" alt="a purple badge that reads 'Educational Tooling - Project for getting started with Camunda for educators'">
 
