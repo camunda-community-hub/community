@@ -4,6 +4,8 @@ Releases are automated in the Camunda Community Hub via [GitHub Actions](https:/
 
 ### Performing a release
 
+**You must be a member of the Camunda Community Hub to work with the Infrastructure repo.**
+
 1. If this is your first release in the Camunda Community Hub, you will then need to register your repository by opening a pull request in the [Camunda Infrastructure](https://github.com/camunda-community-hub/infrastructure) repo and follow the instructions listed for [onboarding a new repository](https://github.com/camunda-community-hub/infrastructure#use-case-onboarding-a-new-community-hub-repository).
 
 2. Make sure to update your POM using the credentials and instructions found in the [Community Action Maven Release documentation](https://github.com/camunda-community-hub/community-action-maven-release)
