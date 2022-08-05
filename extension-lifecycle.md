@@ -64,8 +64,7 @@ To use one of the Shields.io badges in your extension's README, copy the <code>i
 * To add this badge to your repository, add the following code at the top of your extension's README file: ```[![](https://img.shields.io/badge/Maintainer%20Wanted-This%20extension%20is%20in%20search%20of%20a%20Maintainer-ff69b4)```
 
 ### Requesting removal of a community extension
-* When an extension has critical bugs and is not actively maintained, it may need to be removed from the Camunda Community Hub. To facilitate this process, please complete the following steps:
+When an extension has critical bugs and is not actively maintained, it may need to be removed from the Camunda Community Hub. To facilitate this process, please complete the following steps:
 * Open an issue on the issue tracker for the extension
 * Wait 30 days for a response from the project maintainer
 * If no response is received, or a maintainer confirms that they no longer wish to maintain the project, follow the steps outlined in the Extension Review Template which will notify the Camunda team to remove the extension from the Community Hub and any existing Camunda documentation. 
-
