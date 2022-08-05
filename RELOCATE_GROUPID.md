@@ -2,11 +2,28 @@
 
 The Camunda Community Hub decided for a unified GroupId of `org.camunda.community`. Therefore, all contributors will require a bit of work to switch their repositories to the new GroupId.
 
+<!--  Commenting out becuase I think it might be redundant
+## For a new project
+
+If you develop a Java project, you can leverage the existing infrastructure for builds and releases to Maven Central.
+
+- Use a Maven Group Id based on: `org.camunda.community`
+- Add release parent pom ([as described here](https://github.com/camunda-community-hub/community-action-maven-release)):
+
+```xml
+<parent>
+    <groupId>org.camunda.community</groupId>
+    <artifactId>community-hub-release-parent</artifactId>
+    <version>1.2.2</version>
+</parent>
+```
+-->
+
+## Performing a relocation for a future version
+
 Maven differentiates between two ways of how to approach this topic. Please look at the [official documentation](https://maven.apache.org/guides/mini/guide-relocation.html) for more information.
 The `Working on past versions` is not supported as the Camunda Nexus does not have an automatic nor manual sync to Maven Central.
 `Releasing the next version` on the other hand is something that can be utilized and will inform future users about the relocation.
-
-### Performing a relocation for a future version
 
 The following will describe a procedure of how one could tackle the relocation for future releases with the given tools (maven release action).
 In total, we'll do two releases with two different groupIds for the same version. If a person consumes the latest version of the old groupId, a warning will be issued that mentions the relocation to the new groupId.
