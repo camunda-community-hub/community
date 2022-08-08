@@ -1,4 +1,4 @@
-# Maintainer and Reviewer Expectations
+# Maintainer and reviewer expectations
 
 - [Maintainer expectations](#maintainer-expectations)
   - [Identifying a project maintainer](#identifying-a-project-maintainer)
@@ -8,31 +8,31 @@
 
 ## Maintainer expectations
 
-Maintainers are often the first point of contact that new contributors have with an open source project, and significantly impact the way that the community is perceived. As such, Community Extension Maintainers are a crucial part of the Camunda open source community, and in shaping the Camunda Community Extension Hub. Both extension maintainers and reviewers should remember to abide by the Camunda Code of Conduct when communicating with community members. They should also strive to exceed expectations, exemplifying kindness, respectfulness, and collaboration.
+Maintainers are often the first point of contact that new contributors have with an open source project, and significantly impact the way that the community is perceived. As such, community extension maintainers are a crucial part of the Camunda open source community, and in shaping the Camunda Community Hub. Both extension maintainers and reviewers should remember to abide by the Camunda Code of Conduct when communicating with community members. They should also strive to exceed expectations, exemplifying kindness, respectfulness, and collaboration.
 
 - Maintainers and reviewers are encouraged to review open pull requests on a cadence basis, determined by the project maintainer if a project is in the Proof-of-Concept or Incubation [extension lifecycle stage](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md). 
 
-If an extension maintainer wishes for an extension to be listed as a Stable Community Extension, they must agree to the following standards for pull request review and issue triage:
+If an extension maintainer wishes for an extension to be listed as a stable community extension, they must agree to the following standards for pull request review and issue triage:
 
-- Maintainers of a Stable Camunda Community Extension are expected to review open pull requests and issues in their extension's repository within 30 days.
+- Maintainers of a stable Camunda community extension are expected to review open pull requests and issues in their extension's repository within 30 days.
 - Follow the [guidelines](https://github.com/Camunda-Community-Hub/community/blob/main/issue-triage.md) for open issue and pull request triage.
 
-If you are a contributor that would like to take over maintaining an extension in the Camunda Community hub that has the Lifecycle: `Abandoned` or `Maintainer Wanted` labels, please review [becoming a Maintainer of an abandoned extension](https://github.com/camunda-community-hub/community/blob/main/abandoned-extension-maintainer-guidelines.MD)
+If you are a contributor that would like to take over maintaining an extension in the Camunda Community hub that has the Lifecycle: `Abandoned` or `Maintainer Wanted` labels, please review [becoming a Maintainer of an abandoned extension](https://github.com/camunda-community-hub/community/blob/main/abandoned-extension-maintainer-guidelines.MD).
 
 ### Identifying a project maintainer
 
-Each Camunda community extension will have listed a Maintainer whose responsibility it is to maintain the extension and drive its progression forward. Otherwise, it will be labelled as `Abandoned`.
+Each Camunda community extension will have listed a maintainer whose responsibility it is to maintain the extension and drive its progression forward. Otherwise, it will be labelled as `Abandoned`.
 
 ## Reviewer expectations
 
 Reviewers can be anyone who is interested in contributing to an extension. They are primarily responsible for reviewing open pull requests (PRs) in a project, are expected to leave helpful feedback where necessary, assign issue triage labels, ask clarifying questions, and to understand the inner workings of the extension whose pull requests they are reviewing. They are encouraged to review any open PRs on a regular basis, which is often determined by the extension's maintainer. 
 
-Reviewers can also review open pull requests at any time that works for them outside of any set official issue triage time set by the extension's maintainer. If a maintainer wishes for an extension to be labelled as a Stable Community Extension, they must agree to the following standards for pull request review and issue triage:
+Reviewers can also review open pull requests at any time that works for them outside of any set official issue triage time set by the extension's maintainer. If a maintainer wishes for an extension to be labelled as a stable community extension, they must agree to the following standards for pull request review and issue triage:
 
-* Reviewers contributing to a Stable Camunda Community Extension are expected to review open pull requests assigned to them in a timely manner
+* Reviewers contributing to a stable Camunda community extension are expected to review open pull requests assigned to them in a timely manner
     * If a reviewer fails to respond, a PR may be reassigned to another reviewer after three attempts to contact the reviewer
-    * If you are a Camunda Community Extension reviewer, and you are going to be away for an extended period, or no longer have time to dedicate to issue review, please notify the project Maintainer, and remove yourself from any existing documentation that lists you as an active reviewer
-    * Reviewers and Maintainers are expected to adhere to our guidelines surrounding [issue triage and labelling](https://github.com/Camunda-Community-Hub/community/blob/main/issue-triage.md) for Stable Community Extensions.
+    * If you are a Camunda community extension reviewer, and you are going to be away for an extended period, or no longer have time to dedicate to issue review, please notify the project maintainer, and remove yourself from any existing documentation that lists you as an active reviewer
+    * Reviewers and maintainers are expected to adhere to our guidelines surrounding [issue triage and labelling](https://github.com/Camunda-Community-Hub/community/blob/main/issue-triage.md) for stable community extensions.
 
 
 ## What to include in your extension's README file
@@ -48,7 +48,7 @@ Reviewers can also review open pull requests at any time that works for them out
 * While we encourage you to create a general discussion thread on our forums about your extension, please direct users that are having trouble working with your extension for any reason to open an issue on GitHub
 * Contributing -- If your extension is open to outside contributions from the community, here’s where you should state that, and what your requirements are for accepting/merging a pull request. 
 * Document any commands needed to run CI/CD tests, and be sure to include instructions for running tests. 
-* Licensing information -- Please list the open source licenses your project is under here. For example, Apache 2.0.
+* Licensing information -- Please list the open source licenses your project is under here, for example, Apache 2.0.
 
 ### Optional information to include in your README file
 

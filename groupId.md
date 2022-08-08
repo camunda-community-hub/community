@@ -1,14 +1,13 @@
-# Relocation of the GroupId
+# Relocation of the groupId
 
-The Camunda Community Hub decided for a unified GroupId of `org.camunda.community`. Therefore, all contributors will require a bit of work to switch their repositories to the new GroupId.
+The Camunda Community Hub decided for a unified groupId of `org.camunda.community`. Therefore, all contributors will require a bit of work to switch their repositories to the new groupId.
 
-<!--  Commenting out becuase I think it might be redundant
-## For a new project
+## Using the groupId for a new project
 
 If you develop a Java project, you can leverage the existing infrastructure for builds and releases to Maven Central.
 
-- Use a Maven Group Id based on: `org.camunda.community`
-- Add release parent pom ([as described here](https://github.com/camunda-community-hub/community-action-maven-release)):
+1. Use a Maven groupId based on: `org.camunda.community`
+2. Add release parent pom [as described here](https://github.com/camunda-community-hub/community-action-maven-release):
 
 ```xml
 <parent>
@@ -17,7 +16,6 @@ If you develop a Java project, you can leverage the existing infrastructure for 
     <version>1.2.2</version>
 </parent>
 ```
--->
 
 ## Performing a relocation for a future version
 
@@ -30,7 +28,7 @@ In total, we'll do two releases with two different groupIds for the same version
 ```
 [WARNING] While downloading org.camunda.infra.githubdemo:camunda-infra-githubdemo:2.0.0
   This artifact has been relocated to org.camunda.community.infra.githubdemo:camunda-infra-githubdemo:2.0.0.
-  It was decided on a unified GroupId
+  It was decided on a unified groupId
 ```
 
 1. Create a branch of the primary branch, e.g., called `relocation`. It will be used later to publish the relocation pom.

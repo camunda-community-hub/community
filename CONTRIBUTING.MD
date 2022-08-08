@@ -12,12 +12,12 @@ Please note that this project is released with a [Contributor Code of Conduct](h
 - [Submitting a pull request](#submitting-a-pull-request)
 - [Code Camunda community extension contributions](#code-camunda-community-extension-contributions)
 - [Automated releases](#automated-releases)
-  - [Group ID](#group-id)
-- [Non-Code Camunda community extension contributions](#non-code-camunda-community-extension-contributions)
+  - [groupId](#groupid)
+- [Non-code Camunda community extension contributions](#non-code-camunda-community-extension-contributions)
   - [Event-Based community roles](#event-based-community-roles)
   - [Community education and onboarding](#community-education-and-onboarding)
   - [Issue triage](#issue-triage)
-  - [Post-Code specific contributions](#post-code-specific-contributions)
+  - [Post-code specific contributions](#post-code-specific-contributions)
   - [Help project maintainers write release notes for their extension](#help-project-maintainers-write-release-notes-for-their-extension)
 - [Resources](#resources)
 
@@ -45,22 +45,22 @@ We also have guidelines for [Maintainer and Reviewer expectations.](maintainer-r
 
 For more information on automated releases and how you can utilize automated releasing to Maven Central in the Camunda Community Hub, please view our [automated release](https://github.com/camunda-community-hub/community/blob/main/RELEASE.MD) documentation.
 
-### Group ID 
+### groupId 
 
-The Camunda Community Hub members have decided to operate under a centralized GroupID as of January 15th, 2021:
+The Camunda Community Hub members have decided to operate under a centralized groupId as of January 15th, 2021:
 
 ```
 org.camunda.community
 ```
 
-To make use of this centralized GroupID in your own projects, including how to relocate your extension's GroupID, please review our [documentation.](https://github.com/camunda-community-hub/community/blob/main/RELOCATE_GROUPID.md)
+To make use of this centralized groupId in your own projects, including how to relocate your extension's GroupID, please review our [documentation.](groupId.md)
 
-- Add Github Action [as decribed here](https://github.com/camunda-community-hub/community-action-maven-release#add-github-workflow). Check that the build is working when you push code to your repo. 
+1. Add Github Action [as decribed here](https://github.com/camunda-community-hub/community-action-maven-release#add-github-workflow). Check that the build is working when you push code to your repo. 
 
-- When you are ready to release, follow [performing a release](https://github.com/camunda-community-hub/community/blob/main/RELEASE.MD#performing-a-release).
+2. When you are ready to release, follow [performing a release](https://github.com/camunda-community-hub/community/blob/main/RELEASE.MD#performing-a-release).
 
 
-## Non-Code Camunda community extension contributions
+## Non-code Camunda community extension contributions
 
 If you are interested in contributing to any Camunda Community Hub extension, there are a variety of ways to get involved without having to have coding experience: These include issue triage, writing documentation, and much, much more.
 
@@ -87,9 +87,9 @@ If you are interested in contributing to any Camunda Community Hub extension, th
 * Helping to triage issues by following up where needed, closing stale issues, and more
 * For more information on how to get started with issue triage and labelling, including what issue labels and pull request automation we use in the Camunda Community Hub, please read the [documentation.](https://github.com/camunda-community-hub/community/blob/main/issue-triage.md)
 
-### Post-Code specific contributions
+### Post-code specific contributions
 
-These are roles that are not code-based, but require some knowledge in that you will need to have an understanding of the Camunda Community Extension ecosystem, the Camunda codebase, or general programming knowledge.
+These are roles that are not code-based, but require some knowledge in that you will need to have an understanding of the Camunda community extension ecosystem, the Camunda codebase, or general programming knowledge.
 
 ### Help project maintainers write release notes for their extension
 
@@ -103,4 +103,4 @@ These are roles that are not code-based, but require some knowledge in that you 
 - [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
 - [Using Pull Requests](https://help.github.com/articles/about-pull-requests/)
 - [GitHub Help](https://help.github.com)
-- [Code of Conduct](https://github.com/camunda-community-hub/community/blob/main/CODE_OF_CONDUCT.MD)
+- [Camunda Code of Conduct](https://github.com/camunda-community-hub/community/blob/main/CODE_OF_CONDUCT.MD)

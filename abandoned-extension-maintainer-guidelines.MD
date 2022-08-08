@@ -1,6 +1,5 @@
-# Guidelines for Becoming a maintainer of an Abandoned Community Extension
+# Guidelines for becoming a maintainer of an abandoned community extension
 
-<!-- omit in toc -->
 Being a maintainer may mean that you're coding less and responding to issues, clarifying pull requests, fixing bugs, or triaging issues more often than you are working on code to build new features. Other times, you may be committing code and responding to issues as a team of one. 
 
   - [Contact the original project maintainer](#contact-the-original-project-maintainer)

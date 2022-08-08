@@ -1,5 +1,5 @@
 # Welcome to the Camunda Community Hub!
-## A project to empower our open source community extension maintainers, and encourage new contributors to get started contributing to the Camunda open source ecosystem. <!-- omit in toc -->
+A project to empower our open source community extension maintainers, and encourage new contributors to get started contributing to the Camunda open source ecosystem.
 
 **Table of Contents**
 
@@ -17,7 +17,7 @@ The Camunda Community Hub is a GitHub Organization for all of our community-cont
 
 Extensions in the Camunda Community Hub organization are independently led and maintained projects by members of the broader Camunda open source community, some of whom happen to be Camunda employees, or are projects/tutorials that are created and maintained by the Camunda Developer Relations team!
 
-We’ve put together some commonly asked questions and answers about the Camunda Community Hub, our approach to open source contributions and Maintainership, and how we hope to empower our open source community in the future. 
+We’ve put together some commonly asked questions and answers about the Camunda Community Hub, our approach to open source contributions and maintainership, and how we hope to empower our open source community in the future. 
 
 ## How to contribute
 
@@ -35,6 +35,7 @@ We’ve put together some commonly asked questions and answers about the Camunda
 * [Issue triage and labeling](issue-triage.md)
 * [Maintainer & reviewer expectations](#maintainer-reviewer-expectations.md)
 * [Automated release documentation](https://github.com/camunda-community-hub/community/blob/main/RELEASE.MD)
+* [Using our groupId for Java builds](groupId.md)
 
 ## Communication guidelines and expectations
 
@@ -65,7 +66,7 @@ If you have a question related to getting started contributing to the Camunda op
 
 ### Meet the Camunda Developer Relations team
 
-The [Camunda Developer Relations team](https://github.com/Camunda-Community-Hub/devrel-team) exists to serve the Camunda developer community, from internal employees to Open Source contributors, Enterprise customers, and the broader tech community. It is our goal to provide opportunities for developers to be more successful by making them aware of our solutions, enabling them to be successful through great experiences, and fostering a culture of collaboration.
+The [Camunda Developer Relations team](https://github.com/Camunda-Community-Hub/devrel-team) exists to serve the Camunda developer community, from internal employees to open source contributors, Enterprise customers, and the broader tech community. It is our goal to provide opportunities for developers to be more successful by making them aware of our solutions, enabling them to be successful through great experiences, and fostering a culture of collaboration.
 
 ## Inspiration
 

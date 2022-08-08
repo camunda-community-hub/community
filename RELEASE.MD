@@ -1,8 +1,8 @@
 # Automated releasing to Maven Central
 
-Releases are automated in the Camunda Community Hub via [GitHub Actions](https://github.com/camunda-community-hub/community-action-maven-release). This contains the core release workflow that is required to publish Java-based Community Extensions for [Camunda Platform](https://camunda.com/products/camunda-bpm/) to Maven Central. The necessary credentials to tag in GitHub and push to Maven Central need to be set up as secrets in each repository.
+Releases are automated in the Camunda Community Hub via [GitHub Actions](https://github.com/camunda-community-hub/community-action-maven-release). This contains the core release workflow that is required to publish Java-based Community Extensions for [Camunda Platform 7](https://camunda.com/platform-7/) to Maven Central. The necessary credentials to tag in GitHub and push to Maven Central need to be set up as secrets in each repository.
 
-### Performing a release
+## Performing a release
 
 **You must be a member of the Camunda Community Hub to work with the Infrastructure repo.**
 
@@ -23,9 +23,9 @@ Releases are automated in the Camunda Community Hub via [GitHub Actions](https:/
 
 6. After a new release has been built and staged, your next step is to open a new issue in your repository and assign it to [@camunda-community-hub/devrel](https://github.com/orgs/camunda-community-hub/teams/devrel) with a waiting-for-camunda [issue label](https://github.com/camunda-community-hub/template-repo/labels) applied. They will then review your pull request and release the artifact to Maven Central. After an artifact has been released, it can take up to an hour to be retrievable, and 2-3 hours for it to be reflected on the public page of the artifact.
 
-### FAQ
+## FAQ
 
-#### What if my release fails while deploying integration tests?
+### What if my release fails while deploying integration tests?
 
 Integration tests should be versioned when preparing a release, but should never be deployed to Maven Central. If you have an integration-tests module in your project, add the following profile to your parent POM:
 
@@ -48,15 +48,15 @@ Integration tests should be versioned when preparing a release, but should never
 
 This will ensure that when the `mvn release:perform `is triggered (with the `-DperformRelease` flag set) the `integration-tests` module is skipped.
 
-#### What if my release says it's missing a key for GPG?
+### What if my release says it's missing a key for GPG?
 
 Verify that you have adjusted your extension's release workflow GPG files to match the example shown in the [Community Action Maven Release](https://github.com/camunda-community-hub/community-action-maven-release/blob/22004c20cb61979859e889cf17081b3e886849b8/example-workflows/java11/deploy.yml#L25-L30) documentation. For more information on Java setup actions and what GPG does, review the [documentation on GitHub](https://github.com/actions/setup-java/blob/main/docs/advanced-usage.md#gpg).
 
-### Integrating GitHub Actions with Zeebe on Camunda Cloud
+## Integrating GitHub Actions with Zeebe on Camunda Cloud
 
 If you are interested in working with GitHub Actions using Zeebe on Camunda Cloud, visit our [Camunda Cloud GitHub Action](https://github.com/camunda-community-hub/camunda-cloud-github-action) repository to get started.
 
-### Troubleshooting
+## Troubleshooting
 
 1. If you are facing any issues regarding your extension's release process, please [open an issue](https://github.com/camunda-community-hub/community-action-maven-release/issues) and assign it to [@camunda-community-hub/devrel](https://github.com/orgs/camunda-community-hub/teams/devrel) with applicable issue labels applied.
 2. If you see an update or improvement that can be made to the release process in the Camunda Community Hub, we encourage you to submit an issue with your request, and thank you for your suggestion!
