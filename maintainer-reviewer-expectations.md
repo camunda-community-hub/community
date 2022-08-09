@@ -21,13 +21,13 @@ If you are a contributor that would like to take over maintaining an extension i
 
 ### Identifying a project maintainer
 
-Each Camunda community extension will have listed a maintainer whose responsibility it is to maintain the extension and drive its progression forward. Otherwise, it will be labelled as `Abandoned`.
+Each Camunda community extension will have listed a maintainer whose responsibility it is to maintain the extension and drive its progression forward. Otherwise, it will be labeled as `Abandoned`.
 
 ## Reviewer expectations
 
 Reviewers can be anyone who is interested in contributing to an extension. They are primarily responsible for reviewing open pull requests (PRs) in a project, are expected to leave helpful feedback where necessary, assign issue triage labels, ask clarifying questions, and to understand the inner workings of the extension whose pull requests they are reviewing. They are encouraged to review any open PRs on a regular basis, which is often determined by the extension's maintainer. 
 
-Reviewers can also review open pull requests at any time that works for them outside of any set official issue triage time set by the extension's maintainer. If a maintainer wishes for an extension to be labelled as a stable community extension, they must agree to the following standards for pull request review and issue triage:
+Reviewers can also review open pull requests at any time that works for them outside of any set official issue triage time set by the extension's maintainer. If a maintainer wishes for an extension to be labeled as a stable community extension, they must agree to the following standards for pull request review and issue triage:
 
 * Reviewers contributing to a stable Camunda community extension are expected to review open pull requests assigned to them in a timely manner
     * If a reviewer fails to respond, a PR may be reassigned to another reviewer after three attempts to contact the reviewer

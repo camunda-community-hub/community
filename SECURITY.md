@@ -12,6 +12,7 @@
   - [Why dependency classifications matter](#why-dependency-classifications-matter)
   - [How to update open source dependencies](#how-to-update-open-source-dependencies)
   - [Potential consequences of using outdated dependencies](#potential-consequences-of-using-outdated-dependencies)
+  - [Dependabot](#dependabot)
 - [Inspiration](#inspiration)
 
 This document provides help and advice to projects in the Camunda Community hub regarding security issues, and how to handle reporting of security vulnerabilities. 
@@ -29,7 +30,7 @@ address any security vulnerabilities in a repository according to the guidelines
 * [Renovate](https://github.com/renovatebot/renovate) - Opt in
 * The [Community Action Maven Release](https://github.com/camunda-community-hub/community-action-maven-release#security-scanning) allows 
 maintainers to opt-in to Aqua Security’s Trivy container security scanning tool, 
-and uploads the results of HIGH and CRITICAL vulnerabilities to the GitHub Security tab
+and uploads the results of HIGH and CRITICAL vulnerabilities to the GitHub Security tab.
 
 
 ## When should I report a vulnerability?
@@ -159,10 +160,13 @@ While it can be challenging to update these dependencies, it is not impossible.
 * Make use of open source tools such as Snyk, Trivy, JFrog X-Ray, and more to help ensure your Maven dependencies are up-to-date. 
 * Perform regression tests
 * Make regression tests and dependency management a part of your CI/CD workflow
-* Using Dependabot and Renovate for dependency management: 
+* Using Dependabot and Renovate for dependency management
 
-Repositories in the Camunda Community Hub have the automated dependency tool dependabot installed at the Organizational level. 
-Dependabot is integrated with GitHub, and powers GitHub’s automated security update feature introduced in 2019. Repository Administrators can interact with Dependabot directly from the GitHub UI. To enable dependabot security updates, go to your repository’s Settings page, click the Security & Analysis tab, and then click Enable next to `Dependabot security updates.` 
+### Dependabot
+
+Repositories in the Camunda Community Hub have the automated dependency tool Dependabot installed at the Organizational level. 
+
+Dependabot is integrated with GitHub, and powers GitHub’s automated security update feature introduced in 2019. Repository Administrators can interact with Dependabot directly from the GitHub UI. To enable dependabot security updates, go to your repository’s **Settings** page, click the **Security & Analysi**s tab, and then click **Enable** next to `Dependabot security updates`. 
 
 Administrators have the following permissions when accessing security features in GitHub repositories within the Camunda Community Hub:
 
@@ -180,8 +184,8 @@ Administrators and Maintainers have the following permissions when accessing sec
 * List, dismiss, or delete code scanning alerts
 * View secret scan alerts in a repository*
 ** Repository writers and maintainers can only see alert information for their own commits.
-* Resolve, revoke, or re-open secret scan alerts*
-** Repository writers and maintainers can only see alert information for their own commits.
+* Resolve, revoke, or re-open secret scan alerts
+  * Repository writers and maintainers can only see alert information for their own commits.
 
 
 Maintainers are also able to request that renovate be added to their repository for dependency management.

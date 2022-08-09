@@ -55,7 +55,7 @@ org.camunda.community
 
 To make use of this centralized groupId in your own projects, including how to relocate your extension's GroupID, please review our [documentation.](groupId.md)
 
-1. Add Github Action [as decribed here](https://github.com/camunda-community-hub/community-action-maven-release#add-github-workflow). Check that the build is working when you push code to your repo. 
+1. Add GitHub Action [as decribed here](https://github.com/camunda-community-hub/community-action-maven-release#add-github-workflow). Check that the build is working when you push code to your repo. 
 
 2. When you are ready to release, follow [performing a release](https://github.com/camunda-community-hub/community/blob/main/RELEASE.MD#performing-a-release).
 

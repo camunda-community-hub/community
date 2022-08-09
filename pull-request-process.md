@@ -10,13 +10,14 @@ This guide is intended for those who already have a pull request to submit to a 
 3. Reference any open issues that your PR can solve, or issues that it is related to.
 4. Avoid making large changes in a single commit. Instead, break your request into smaller pieces. This will ensure that reviewers are able to review your PR in a timely manner.
 5. Use comments where needed to add additional context
-6. Don’t assign an excessive amount of reviewers. If a reviewer is not automatically assigned via the Camunda Community Probot, /assign the pull request to the most relevant project maintainer
-7. If your PR is considered a Work-in-Progress [WIP], adding that prefix in your PR title will prevent the PR from being merged until the WIP or /hold command is lifted.
+6. Don’t `/assign` an excessive amount of reviewers. If a reviewer is not automatically assigned via the Camunda Community Probot, assign the pull request to the most relevant project maintainer.
+7. If your PR is considered a Work-in-Progress, adding that prefix `[WIP`] in your PR title will prevent the PR from being merged until the WIP or `/hold` command is lifted.
     * This can also be achieved by setting your PR as a [`Draft Pull Request`](https://github.blog/2019-02-14-introducing-draft-pull-requests/) on GitHub
-8. If your PR has not been reviewed within 14 days, please don’t close your PR and re-open it. Please @ your reviewer and alert a Camunda team member, who will help you triage the pull request if need be.
+    * Learn more about these slash commands in the [Camunda Community Hub Probot documentation](https://github.com/camunda-community-hub/camunda-community-hub-probot).
+8. If your PR has not been reviewed within 14 days, please don’t close your PR and re-open it. Please tag your reviewer by commenting with an `@` followed by their username (i.e. `@xomiamoore`), and alert a Camunda team member, who will help you triage the pull request if need be.
 9. If you feel that your PR isn’t getting the attention it deserves, please post it in the relevant extension’s thread on the [Community Forums](https://forum.camunda.org/c/community-extensions/13) to find additional reviewers.
 
-### Example PR description:
+## Example PR description:
 
 References Issues #021 #009
 
@@ -35,4 +36,4 @@ Fix to [xyz feature] was added to resolve bug referenced in #021, #009. All buil
 
 If you are working on a pull request with many moving parts, we strongly recommend that you break up your request into smaller PRs, rather than one large PR with many lines of code to review. This helps Community Extension Maintainers review and approve your pull requests quickly. 
 
-If you add a [WIP] title to your pull request, or issue a /hold comment, the Camunda GitHub Probot will add the do-not-merge/work in progress label to your issue, and the do-not-merge/hold labels, respectively. While either of these labels is active on your pull request, it will not be considered for merging by a maintainer or a reviewer. 
+If you add a `[WIP] `title to your pull request, or issue a `/hold `comment, the [Camunda GitHub Probot](https://github.com/camunda-community-hub/camunda-community-hub-probot) will add the `do-not-merge/work in progress` label to your issue, and the `do-not-merge/hold` labels, respectively. While either of these labels is active on your pull request, it will not be considered for merging by a maintainer or a reviewer. 
