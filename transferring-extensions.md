@@ -29,11 +29,11 @@ You will need to follow [these instructions](https://docs.github.com/en/github/a
 
 To transfer a repository in your company's GitHub organization into the Camunda Community Hub, please review the process in [this documentation.](https://docs.github.com/en/github/administering-a-repository/transferring-a-repository#transferring-a-repository-owned-by-your-organization)
 
-## Maintainer and Reviewer Expectations
+## Maintainer and reviewer expectations
 
 Please review our [maintainer expectations](maintainer-reviewer-expectations.md) and edit your extension's README based on the guidelines.
 
-## Personal Information
+## Personal information
 
 In order to work within the Camunda Community Hub, Maintainers are asked to transfer their repository into the Camunda Community Hub rather than fork it into the Hub. 
 

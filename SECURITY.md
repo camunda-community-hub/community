@@ -1,4 +1,19 @@
-# Security and Dependency Management Policy:
+# Security and Dependency Management Policy
+- [Security Tools in Place](#security-tools-in-place)
+- [When should I report a vulnerability?](#when-should-i-report-a-vulnerability)
+- [When should I **not** report a vulnerability?](#when-should-i-not-report-a-vulnerability)
+- [Public disclosure timelines](#public-disclosure-timelines)
+- [Publishing information on a vulnerability](#publishing-information-on-a-vulnerability)
+- [Handling possible vulnerabilities](#handling-possible-vulnerabilities)
+- [Dependency management policy](#dependency-management-policy)
+- [Dependency issues](#dependency-issues)
+  - [Who handles dependency management if a maintainer is away, or a project is unmaintained?](#who-handles-dependency-management-if-a-maintainer-is-away-or-a-project-is-unmaintained)
+  - [Types of dependencies](#types-of-dependencies)
+  - [Why dependency classifications matter](#why-dependency-classifications-matter)
+  - [How to update open source dependencies](#how-to-update-open-source-dependencies)
+  - [Potential consequences of using outdated dependencies](#potential-consequences-of-using-outdated-dependencies)
+  - [Dependabot](#dependabot)
+- [Inspiration](#inspiration)
 
 This document provides help and advice to projects in the Camunda Community hub regarding security issues, and how to handle reporting of security vulnerabilities. 
 As projects in the Camunda Community Hub are community maintained, security prevention is the responsibility of a project’s maintainer. 
@@ -9,16 +24,16 @@ We aim to enable our community to work together to provide assistance to all of 
 DevSecOps, security, and dependency management. We encourage the community as a whole to work with maintainers, and to open issues that 
 address any security vulnerabilities in a repository according to the guidelines listed in this documentation. 
 
-### Security Tools in Place: 
+## Security Tools in Place 
 
 * [Dependabot](https://dependabot.com/) - Enabled at the Organization level
 * [Renovate](https://github.com/renovatebot/renovate) - Opt in
 * The [Community Action Maven Release](https://github.com/camunda-community-hub/community-action-maven-release#security-scanning) allows 
 maintainers to opt-in to Aqua Security’s Trivy container security scanning tool, 
-and uploads the results of HIGH and CRITICAL vulnerabilities to the GitHub Security tab
+and uploads the results of HIGH and CRITICAL vulnerabilities to the GitHub Security tab.
 
 
-### When should I report a vulnerability?
+## When should I report a vulnerability?
 
 * You think you have discovered a security vulnerability in a Camunda Community Hub extension
 * You aren’t sure of, or if, a vulnerability impacts a Camunda Community Hub extension you are using
@@ -26,20 +41,20 @@ and uploads the results of HIGH and CRITICAL vulnerabilities to the GitHub Secur
 * For projects that have their own vulnerability processes and disclosure policies, please report your vulnerability there, following that project’s 
 stated guidelines
 
-### When should I **not** report a vulnerability?
+## When should I **not** report a vulnerability?
 
 * You need help fine-tuning an extension in the Camunda Community Hub for adherence to security best practices
 * You have a question about the security of an extension in the Camunda Community Hub
 * Your question or issue isn’t related to the security of an extension in the Camunda Community Hub
 
-### Public Disclosure Timelines:
+## Public disclosure timelines
 
 * Public disclosure dates will be discussed between the vulnerability reporter and the impacted project’s Maintainer. 
 * When a fix is available, we will then disclose the bug to the public. 
 * If a vulnerability is not fully understood or a fix is not yet implemented, a disclosure date may be modified or pushed back to allow for further research, 
 * coordination, or additional time to fix the issue. The estimated time frame for disclosure ranges from immediate (in the case of vulnerabilities which are already known to the public) to a few weeks. 
 
-### Publishing information on a vulnerability:
+## Publishing information on a vulnerability
 
 Projects with known, published security vulnerabilities should provide information about those vulnerabilities on their repository’s GitHub Security 
 page if they have the permissions to do so. If you do not have the permissions level needed, and would like to publish a security advisory, 
@@ -50,7 +65,7 @@ and their security, testing, and/or dependency management policies for their ext
 When reporting a vulnerability or issue, please keep security best practices in mind, and try to eliminate publicly posting information 
 that may result in the potential for an increased attack surface (e.g. by entering details in a public bug tracker, public-facing issue, or pull request).
 
-### Handling possible vulnerabilities:
+## Handling possible vulnerabilities
 
 Project maintainers in the Camunda Community Hub are responsible for ensuring that their extensions are secure and free from vulnerabilities 
 to the best of their ability. For all potential vulnerabilities related to Apache-specific distributions, dependencies, tools, or services, 
@@ -65,17 +80,17 @@ you may report it privately in a secure channel to the project’s maintainer, a
 * The project maintainer publishes a new release of the extension with the dependencies/tools impacted by the vulnerability and delivers a fix
 * The Camunda team publishes the new release if the extension is using the GitHub Actions Maven Release CI/CD workflow
 * The maintainer announces the vulnerability publicly on the GitHub security page, and details how to apply the fix
-* * This is the first point that any information about a vulnerability should be made public
+  * This is the first point that any information about a vulnerability should be made public
 
 
-### Dependency Management Policy:
+## Dependency management policy
 
 
 Dependencies are the files, libraries, packages, and/or plugins integrated into a project to complete a set of tasks.
 These dependencies are the responsibility of project maintainers to manage and keep up to date. 
 Projects that have vulnerable dependencies that are not resolved within 30 days may be removed from the Camunda Community Hub.
 
-### Dependency issues: 
+## Dependency issues
 
 Applications can encounter dependency issues for a number of reasons:
 
@@ -91,14 +106,14 @@ In order to avoid these issues, extension dependencies need to be actively manag
 Camunda Community Hub up-to-date, we ensure that community extensions avoid security implications or issues that may arise from using outdated libraries, code, 
 or services.
 
-#### Who handles dependency management if a maintainer is away, or a project is unmaintained?
+### Who handles dependency management if a maintainer is away, or a project is unmaintained?
 
 Ideally, it is the responsibility of the community to help manage dependency management. If a project has multiple collaborators and the code owner 
 will be unavailable for an extended period of time, outside collaborators should make an effort to update the project’s dependencies when needed. 
 
 When needed, the Camunda DevRel team may update an unmaintained project’s dependencies if it is deemed necessary.
 
-#### Types of dependencies:
+### Types of dependencies
 
 * Direct dependencies - Libraries or plugins that directly integrate with an application.
 * Development dependencies - These are included in a project’s package.json and are executed by files in the development phase. 
@@ -110,7 +125,7 @@ your project’s direct dependencies.
 * Runtime dependencies - These include frontend dependencies which run in the user’s browser, and backend dependencies which run in the backend for 
 http communications with a server or database.
 
-#### Why dependency classifications matter: 
+### Why dependency classifications matter 
 
 Dependencies can be classified as mandatory, discrete, or external. 
 
@@ -119,7 +134,7 @@ Dependencies can be classified as mandatory, discrete, or external.
 * External dependencies do not involve a project’s team. Internal dependencies, on the other hand, impact maintainers and any outside collaborators on a project.
 
 
-#### How to update open source dependencies:
+### How to update open source dependencies
 
 * Assign yourself as a reviewer of the pull request in question, if there is no CODEOWNERS file present to automatically assign reviewers.
 * Review the changes in the pull request to better understand how the changes will impact the extension if applied
@@ -127,7 +142,7 @@ Dependencies can be classified as mandatory, discrete, or external.
 * Conduct a regression test to ensure that the proposed changes do not break functionality of the existing application, plugin, or extension
 * Merge automated dependency updates individually, rather than in bulk. By merging changes individually, if there is a problem, you can quickly determine the upgrade that caused the issue.
 
-#### Potential consequences of using outdated dependencies:
+### Potential consequences of using outdated dependencies
 
 Maintainers may delay updating dependencies out of fear that they will break their extension’s functionality, which may result in downtime for customers and end users. Using outdated or improperly configured dependencies exposes you to a variety of security risks such as:
 
@@ -145,10 +160,13 @@ While it can be challenging to update these dependencies, it is not impossible.
 * Make use of open source tools such as Snyk, Trivy, JFrog X-Ray, and more to help ensure your Maven dependencies are up-to-date. 
 * Perform regression tests
 * Make regression tests and dependency management a part of your CI/CD workflow
-* Using Dependabot and Renovate for dependency management: 
+* Using Dependabot and Renovate for dependency management
 
-Repositories in the Camunda Community Hub have the automated dependency tool dependabot installed at the Organizational level. 
-Dependabot is integrated with GitHub, and powers GitHub’s automated security update feature introduced in 2019. Repository Administrators can interact with Dependabot directly from the GitHub UI. To enable dependabot security updates, go to your repository’s Settings page, click the Security & Analysis tab, and then click Enable next to ‘Dependabot security updates.’ 
+### Dependabot
+
+Repositories in the Camunda Community Hub have the automated dependency tool Dependabot installed at the Organizational level. 
+
+Dependabot is integrated with GitHub, and powers GitHub’s automated security update feature introduced in 2019. Repository Administrators can interact with Dependabot directly from the GitHub UI. To enable dependabot security updates, go to your repository’s **Settings** page, click the **Security & Analysi**s tab, and then click **Enable** next to `Dependabot security updates`. 
 
 Administrators have the following permissions when accessing security features in GitHub repositories within the Camunda Community Hub:
 
@@ -166,8 +184,8 @@ Administrators and Maintainers have the following permissions when accessing sec
 * List, dismiss, or delete code scanning alerts
 * View secret scan alerts in a repository*
 ** Repository writers and maintainers can only see alert information for their own commits.
-* Resolve, revoke, or re-open secret scan alerts*
-** Repository writers and maintainers can only see alert information for their own commits.
+* Resolve, revoke, or re-open secret scan alerts
+  * Repository writers and maintainers can only see alert information for their own commits.
 
 
 Maintainers are also able to request that renovate be added to their repository for dependency management.
@@ -181,7 +199,7 @@ Ultimately, we leave this decision of which dependency management tool to use in
 We look forward to steering the conversation surrounding these tools, and continuing to improve dependency management and the experience of developers in the
 Camunda Community Hub moving forward.
 
-Inspiration: 
+## Inspiration
 
 This documentation was inspired by the [Apache Security Team](https://apache.org/security), [Crowdbotics](https://blog.crowdbotics.com/how-to-ensure-that-your-dependencies-are-up-to-date/),
 [The Diana Initiative Slack community](https://join.slack.com/t/dianainitiative/shared_invite/zt-t4m9w3zp-3bUr~WDv~GIRJkT8W0lXLg), and the [Kubernetes Security and Disclosure information](https://kubernetes.io/docs/reference/issues-security/security/#report-a-vulnerability).
