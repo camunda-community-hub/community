@@ -1,7 +1,7 @@
 # Welcome to the Camunda Community Hub!
 A project to empower our open source community extension maintainers, and encourage new contributors to get started contributing to the Camunda open source ecosystem.
 
-**Table of Contents**
+# Table of Contents
 
 - [What is the Camunda Community Hub?](#what-is-the-camunda-community-hub)
 - [How to contribute](#how-to-contribute)
@@ -31,11 +31,11 @@ We’ve put together some commonly asked questions and answers about the Camunda
     * **Browse our existing projects** and [contribute](CONTRIBUTING.MD) -- code and non-code contributions welcome!
 
 ### Contributor resources & documentation
-* [Contributor guide](https://github.com/camunda-community-hub/community/blob/main/CONTRIBUTING.MD)
-* [Issue triage and labeling](https://github.com/camunda-community-hub/community/blob/main/issue-triage.md)
-* [Maintainer & reviewer expectations]([#maintainer-reviewer-expectations.md](https://github.com/camunda-community-hub/community/blob/main/maintainer-reviewer-expectations.md))
-* [Automated release documentation](https://github.com/camunda-community-hub/community/blob/main/RELEASE.MD)
-* [Using our groupId for Java builds](https://github.com/camunda-community-hub/community/blob/main/groupId.md)
+* [Contributor guide](/CONTRIBUTING.MD)
+* [Issue triage and labeling](/issue-triage.md)
+* [Maintainer & reviewer expectations](/maintainer-reviewer-expectations.md)
+* [Automated release documentation](/RELEASE.MD)
+* [Using our groupId for Java builds](groupId.md)
 
 ## Communication guidelines and expectations
 
