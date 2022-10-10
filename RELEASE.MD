@@ -1,6 +1,6 @@
 # Automated releasing to Maven Central
 
-Releases are automated in the Camunda Community Hub via [GitHub Actions](https://github.com/camunda-community-hub/community-action-maven-release). This contains the core release workflow that is required to publish Java-based Community Extensions for [Camunda Platform 7](https://camunda.com/platform-7/) to Maven Central. The necessary credentials to tag in GitHub and push to Maven Central need to be set up as secrets in each repository.
+Releases are automated in the Camunda Community Hub via [GitHub Actions](https://github.com/camunda-community-hub/community-action-maven-release). This contains the core release workflow that is required to publish Java-based Community Extensions for Camunda to Maven Central. The necessary credentials to tag in GitHub and push to Maven Central need to be set up as secrets in each repository.
 
 ## Performing a release
 
