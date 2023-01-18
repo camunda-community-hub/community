@@ -26,7 +26,7 @@ We’ve put together some commonly asked questions and answers about the Camunda
 2. Sign our [CLA](https://cla-assistant.io/camunda-community-hub/community) and agree to our [Code of Conduct](https://camunda.com/events/code-conduct/). Then, review our [Contributor Guide](CONTRIBUTING.MD).
 
 3. Now either:
-    * **Start a new community extension** by [opening an issue](https://github.com/Camunda-Community-Hub/community/issues/new/choose) using the `New Community Extension Proposal` template. Follow our complete documentation on [creating a new extension here.](creating-new-extensions)
+    * **Start a new community extension** by [opening an issue](https://github.com/Camunda-Community-Hub/community/issues/new/choose) using the `New Community Extension Proposal` template. Follow our complete documentation on [creating a new extension here.](creating-new-extensions.md)
     * **Transfer your existing repository** into the Camunda Community Hub (do not fork it into the Hub) following [these instructions.](transferring-extensions.md)
     * **Browse our existing projects** and [contribute](CONTRIBUTING.MD) -- code and non-code contributions welcome!
 
