@@ -1,29 +1,70 @@
-# Automated releasing to Maven Central
+# How to build and release Maven projects on the Camunda Community Hub
 
-Releases are automated in the Camunda Community Hub via [GitHub Actions](https://github.com/camunda-community-hub/community-action-maven-release). This contains the core release workflow that is required to publish Java-based Community Extensions for Camunda to Maven Central. The necessary credentials to tag in GitHub and push to Maven Central need to be set up as secrets in each repository.
+In order to build and release your Maven projects properly, you need to prepare:
 
-## Performing a release
+1. Onboard your repository (which makes sure, you will have all necessary credentials available)
+2. Use the [release parent pom](https://github.com/camunda-community-hub/community-hub-release-parent) in your Maven project (which will take care of distribution management)
+3. Setup a Github workflow leveraging the [Community Hub Maven Release Github Action](https://github.com/camunda-community-hub/community-action-maven-release) (which will take care to do the proper releases).
 
-**You must be a member of the Camunda Community Hub to work with the Infrastructure repo.**
+Then you can simply create Github releases, which will also trigger all necessary Maven magic to deploy to 
 
-1. If this is your first release in the Camunda Community Hub, you will then need to register your repository by opening a pull request in the [Camunda Infrastructure](https://github.com/camunda-community-hub/infrastructure) repo and follow the instructions listed for [onboarding a new repository](https://github.com/camunda-community-hub/infrastructure#use-case-onboarding-a-new-community-hub-repository).
+- [Camunda Artifactory](https://artifacts.camunda.com/)
+- [Sonatype](https://oss.sonatype.org/#stagingRepositories) (aka Maven Central)
 
-2. Make sure to update your POM using the credentials and instructions found in the [Community Action Maven Release documentation](https://github.com/camunda-community-hub/community-action-maven-release)
+More information below.
 
-3. Create a GitHub Action in your repository copying the code from [Community Action Maven Release documentation](https://github.com/camunda-community-hub/community-action-maven-release) 
+# Preparations
 
-4. Create a new Release using https://github.com/camunda-community-hub/:repo/releases/new (replace `:repo` with name of repository). 
+## Onboarding your repository
 
-5. This will trigger the release flow, which uses `mvn release:prepare release:perform` to build, sign, and deploy the released version to Maven Central, and will push the generated tags once the process has completed.
+You need to register your repository by opening a pull request in the [Camunda Infrastructure](https://github.com/camunda-community-hub/infrastructure) repo and follow the instructions listed for [onboarding a new repository](https://github.com/camunda-community-hub/infrastructure#use-case-onboarding-a-new-community-hub-repository).
 
-> ![A BPMN diagram of the release workflow](https://github.com/camunda-community-hub/community/blob/main/assets/release-new-version%20(1).png)
-> Image description: To be updated.
-> The gateway branches into a <code>SendTask</code>that is 'Create release with X,Y,Z' a <code>RecieveTask</code> that is 'Wait for workflow', a <code>Task</code> that is, 'Ask for signing of the release,' and finally a <code>EndEvent</code>
-> The event Sub-Task <code>ReceiveTask</code> 'Release triggers workflow' begins, the <code>Task</code>'Perform mvn release,' is completed, and the <code>SendTask</code>'Workflow done' task ends.
 
-6. After a new release has been built and staged, your next step is to open a new issue in your repository and include [@camunda-community-hub/devrel](https://github.com/orgs/camunda-community-hub/teams/devrel) in a comment with a waiting-for-camunda [issue label](https://github.com/camunda-community-hub/template-repo/labels) applied. They will then review your pull request and release the artifact to Maven Central. After an artifact has been released, it can take up to an hour to be retrievable, and 2-3 hours for it to be reflected on the public page of the artifact.
+## Add release parent to POM
 
-## FAQ
+Any project needs to use the [community-hub-release-parent](https://github.com/camunda-community-hub/community-hub-release-parent) in their POM:
+
+```xml
+<parent>
+    <groupId>org.camunda.community</groupId>
+    <artifactId>community-hub-release-parent</artifactId>
+    <version>1.4.0</version>
+</parent>
+```
+
+This parent POM contains all necessary settings for the GitHub action to function properly.
+
+## Add GitHub workflow
+
+[Add a GitHub workflow (e.g. by adding a file `.github/workflows/deploy.yaml` to your) to your project as described here](https://github.com/camunda-community-hub/community-action-maven-release#add-github-workflow)
+
+
+# Performing a release
+
+
+Create a new Release using https://github.com/camunda-community-hub/:repo/releases/new (replace `:repo` with name of repository). 
+
+This will trigger the release flow, which uses `mvn release:prepare release:perform` to build, sign, and deploy the released version to Maven Central, and will push the generated tags once the process has completed.
+
+There are two options:
+
+1. Use the *auto release property* in your Github workflow, so that all releases will be automatically be released to Maven Central:
+
+```
+...
+     - name: Deploy SNAPSHOT / Release
+        uses: camunda-community-hub/community-action-maven-release@v1
+        with:
+          ...
+          maven-auto-release-after-close: true
+          ...
+```
+
+2. Open an issue to let [@camunda-community-hub/devrel](https://github.com/orgs/camunda-community-hub/teams/devrel) review and release your artifact. Therefore, open a new issue in your repository and include [@camunda-community-hub/devrel](https://github.com/orgs/camunda-community-hub/teams/devrel) in a comment with a waiting-for-camunda [issue label](https://github.com/camunda-community-hub/template-repo/labels) applied. 
+
+After an artifact has been released, it can take up to an hour to be retrievable, and 2-3 hours for it to be reflected on the public page of the artifact.
+
+# FAQ
 
 ### What if my release fails while deploying integration tests?
 
