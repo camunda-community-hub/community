@@ -2,9 +2,9 @@
 
 In order to build and release your Maven projects properly, you need to prepare:
 
-1. Onboard your repository (which makes sure, you will have all necessary credentials available)
-2. Use the [release parent pom](https://github.com/camunda-community-hub/community-hub-release-parent) in your Maven project (which will take care of distribution management)
-3. Setup a Github workflow leveraging the [Community Hub Maven Release Github Action](https://github.com/camunda-community-hub/community-action-maven-release) (which will take care to do the proper releases).
+1. **Onboard your repository** (which makes sure, you will have all necessary credentials available)
+2. Use the **[release parent pom](https://github.com/camunda-community-hub/community-hub-release-parent) in your Maven project (which will take care of distribution management)**
+3. Setup a Github workflow leveraging the [Community Hub Maven Release **Github Action**](https://github.com/camunda-community-hub/community-action-maven-release) (which will take care to do the proper releases).
 
 Then you can simply create Github releases, which will also trigger all necessary Maven magic to deploy to 
 
@@ -48,7 +48,7 @@ This will trigger the release flow, which uses `mvn release:prepare release:perf
 
 There are two options:
 
-1. Use the *auto release property* in your Github workflow, so that all releases will be automatically be released to Maven Central:
+1. Use the **auto release property** in your Github workflow (**recommended**), so that all releases will be automatically be released to Maven Central:
 
 ```
 ...
