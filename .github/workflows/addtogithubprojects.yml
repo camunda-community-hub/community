@@ -1,11 +1,17 @@
-- name: Add To GitHub projects
-  uses: actions/add-to-project@v0.4.0
-  with:
-    # URL of the project to add issues to
-    project-url: https://github.com/orgs/camunda-community-hub/projects/3/views/1
-    # A GitHub personal access token with write access to the project
+name: Add Good First Issues to GitHub project
+
+on:
+  issues:
+    types:
+      - opened
+      - labeled
+
+uses: actions/add-to-project@v0.4.0
+  
+with:
+    project-url: https://github.com/orgs/camunda-community-hub/projects/3/
     github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
     # A comma-separated list of labels to use as a filter for issue to be added
     labeled: good-first-issue
     # The behavior of the labels filter, AND to match all labels, OR to match any label, NOT to exclude any listed label (default is OR)
-    label-operator: # optional
+    label-operator: 
