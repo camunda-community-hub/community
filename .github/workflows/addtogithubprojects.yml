@@ -1,17 +1,17 @@
-name: Add Good First Issues to GitHub project
+name: Adds "good first issue" to project
 
 on:
   issues:
     types:
       - opened
       - labeled
-
-uses: actions/add-to-project@v0.4.0
-  
-with:
-    project-url: https://github.com/orgs/camunda-community-hub/projects/3/
-    github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
-    # A comma-separated list of labels to use as a filter for issue to be added
-    labeled: good-first-issue
-    # The behavior of the labels filter, AND to match all labels, OR to match any label, NOT to exclude any listed label (default is OR)
-    label-operator: 
+jobs:
+  add-to-project:
+    name: Add issue to project
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/add-to-project@RELEASE_VERSION
+        with:
+          project-url: hhttps://github.com/orgs/camunda-community-hub/projects/3/
+          github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
+          labeled: good-first-issue
