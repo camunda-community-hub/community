@@ -59,6 +59,7 @@ There are two options:
           maven-auto-release-after-close: true
           ...
 ```
+:warning: Please, note, that this functionality starts to work in `community-hub-release-parent` with version `1.4.1`. [Source](https://github.com/camunda-community-hub/kotlin-coworker/issues/42#issuecomment-1432808578).
 
 2. Open an issue to let [@camunda-community-hub/devrel](https://github.com/orgs/camunda-community-hub/teams/devrel) review and release your artifact. Therefore, open a new issue in your repository and include [@camunda-community-hub/devrel](https://github.com/orgs/camunda-community-hub/teams/devrel) in a comment with a waiting-for-camunda [issue label](https://github.com/camunda-community-hub/template-repo/labels) applied. 
 
