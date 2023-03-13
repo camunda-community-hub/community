@@ -1,3 +1,5 @@
+![Camunda-Community-Hub_1500x500](https://user-images.githubusercontent.com/43454823/224776667-3f90e92b-4df6-4978-a7d6-ea505df806a2.png)
+
 # Welcome to the Camunda Community Hub!
 A project to empower our open source community extension maintainers, and encourage new contributors to get started contributing to the Camunda open source ecosystem.
 
