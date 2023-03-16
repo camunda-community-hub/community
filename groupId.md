@@ -13,7 +13,7 @@ If you develop a Java project, you can leverage the existing infrastructure for 
 <parent>
     <groupId>org.camunda.community</groupId>
     <artifactId>community-hub-release-parent</artifactId>
-    <version>1.3.1</version>
+    <version>1.4.1</version>
 </parent>
 ```
 

@@ -1,2 +1,4 @@
 {
+    "files.autoSave": "afterDelay",
+    "git.autofetch": "all"
 }
