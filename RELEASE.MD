@@ -1,4 +1,6 @@
-# How to build and release Maven projects on the Camunda Community Hub
+# How to build and release projects on the Camunda Community Hub
+
+## Maven
 
 In order to build and release your Maven projects properly, you need to prepare:
 
@@ -13,14 +15,29 @@ Then you can simply create Github releases, which will also trigger all necessar
 
 More information below.
 
-# Preparations
+## Docker
+
+In order to build and release Docker images, you need to prepare:
+
+1. Use the **image name** `camundacommunityhub/*`
+1. **Onboard your repository** (which makes sure, you will have all necessary credentials available)
+3. Setup a Github workflow to push your Docker images to Dockerhub.
+
+More information below.
+
+# Detailed instructions
 
 ## Onboarding your repository
 
 You need to register your repository by opening a pull request in the [Camunda Infrastructure](https://github.com/camunda-community-hub/infrastructure) repo and follow the instructions listed for [onboarding a new repository](https://github.com/camunda-community-hub/infrastructure#use-case-onboarding-a-new-community-hub-repository).
 
+## Maven
 
-## Add release parent to POM
+### Use common groupId
+
+The Camunda Community Hub decided for a unified groupId. Use a Maven groupId based on: `org.camunda.community`, so for example `org.camunda.community.awesomeextension`
+
+### Add release parent to POM
 
 Any project needs to use the [community-hub-release-parent](https://github.com/camunda-community-hub/community-hub-release-parent) in their POM:
 
@@ -34,12 +51,12 @@ Any project needs to use the [community-hub-release-parent](https://github.com/c
 
 This parent POM contains all necessary settings for the GitHub action to function properly.
 
-## Add GitHub workflow
+### Add GitHub workflow
 
 [Add a GitHub workflow (e.g. by adding a file `.github/workflows/deploy.yaml` to your) to your project as described here](https://github.com/camunda-community-hub/community-action-maven-release#add-github-workflow)
 
 
-# Performing a release
+### Performing a release
 
 
 Create a new Release using https://github.com/camunda-community-hub/:repo/releases/new (replace `:repo` with name of repository). 
@@ -64,6 +81,10 @@ There are two options:
 2. Open an issue to let [@camunda-community-hub/devrel](https://github.com/orgs/camunda-community-hub/teams/devrel) review and release your artifact. Therefore, open a new issue in your repository and include [@camunda-community-hub/devrel](https://github.com/orgs/camunda-community-hub/teams/devrel) in a comment with a waiting-for-camunda [issue label](https://github.com/camunda-community-hub/template-repo/labels) applied. 
 
 After an artifact has been released, it can take up to an hour to be retrievable, and 2-3 hours for it to be reflected on the public page of the artifact.
+
+## Docker
+
+[TBD]
 
 # FAQ
 
