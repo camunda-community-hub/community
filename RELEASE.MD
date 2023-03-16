@@ -2,7 +2,7 @@
 
 In order to build and release your Maven projects properly, you need to prepare:
 
-1. **Onboard your repository** (which makes sure, you will have all necessary credentials available)
+1. **Onboard your repository** (which makes sure you will have all necessary credentials available)
 2. Use the **[release parent pom](https://github.com/camunda-community-hub/community-hub-release-parent) in your Maven project (which will take care of distribution management)**
 3. Setup a Github workflow leveraging the [Community Hub Maven Release **Github Action**](https://github.com/camunda-community-hub/community-action-maven-release) (which will take care to do the proper releases).
 

@@ -29,6 +29,10 @@ You will need to follow [these instructions](https://docs.github.com/en/github/a
 
 To transfer a repository in your company's GitHub organization into the Camunda Community Hub, please review the process in [this documentation.](https://docs.github.com/en/github/administering-a-repository/transferring-a-repository#transferring-a-repository-owned-by-your-organization)
 
+## Maven and Docker setup
+When onboarding, you will be asked if you would like to use our infrastructure for Maven and Docker. If so, [follow the onboarding instructions here. ](#automated-releases---maven--docker)
+
+
 ## Maintainer and reviewer expectations
 
 Please review our [maintainer expectations](maintainer-reviewer-expectations.md) and edit your extension's README based on the guidelines.
