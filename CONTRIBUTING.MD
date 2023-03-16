@@ -6,6 +6,8 @@
 
 Hi there! We're thrilled that you'd like to contribute to this or other projects in the Camunda Community Hub. 
 
+
+
 Please note that this project is released with a [Contributor Code of Conduct](https://github.com/camunda-community-hub/community/blob/main/CODE_OF_CONDUCT.MD). By participating in this organization, you agree to abide by its terms.
 
 - [Issues and PRs](#issues-and-prs)
@@ -45,8 +47,7 @@ For more information on releasing to Maven Central, please view our [release gui
 
 For more information on releasing to Dockerhub, please view our [release guide](https://github.com/camunda-community-hub/community/blob/main/RELEASE.MD).
 
-
-## Non-code contributions
+## Non-code Camunda contributions
 
 If you are interested in contributing to any Camunda Community Hub extension, there are a variety of ways to get involved without having to have coding experience: These include issue triage, writing documentation, and much, much more.
 
