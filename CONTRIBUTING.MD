@@ -4,22 +4,9 @@
 [pr]: /compare
 [CODE_OF_CONDUCT]: CODE_OF_CONDUCT.MD
 
-Hi there! We're thrilled that you'd like to contribute to this project. Your help is essential for keeping it great.
+Hi there! We're thrilled that you'd like to contribute - your help is essential.
 
 Please note that this project is released with a [Contributor Code of Conduct](https://github.com/camunda-community-hub/community/blob/main/CODE_OF_CONDUCT.MD). By participating in this project you agree to abide by its terms.
-
-- [Issues and PRs](#issues-and-prs)
-- [Submitting a pull request](#submitting-a-pull-request)
-- [Code Camunda community extension contributions](#code-camunda-community-extension-contributions)
-- [Automated releases](#automated-releases)
-  - [groupId](#groupid)
-- [Non-code Camunda community extension contributions](#non-code-camunda-community-extension-contributions)
-  - [Event-Based community roles](#event-based-community-roles)
-  - [Community education and onboarding](#community-education-and-onboarding)
-  - [Issue triage](#issue-triage)
-  - [Post-code specific contributions](#post-code-specific-contributions)
-  - [Help project maintainers write release notes for their extension](#help-project-maintainers-write-release-notes-for-their-extension)
-- [Resources](#resources)
 
 ## Issues and PRs
 
@@ -27,37 +14,23 @@ If you have suggestions for how this project could be improved, or want to repor
 
 We'd also love PRs. If you're thinking of a large PR, we advise opening up an issue first to talk about it, though! Look at the links in [Resources](#resources) if you're not sure how to open a PR.
 
-## Submitting a pull request
-
-Please feel free to fork this repository and open a pull request to update this documentation.
-
 Work in Progress pull requests are also welcome to get feedback early on, or if there is something blocking you that you would like an additional person to take a look at.
 
 For more guidance around pull requests, visit our [Pull Request Process](/Users/miamoore/community/pull-request-process.md).
 
-## Code Camunda community extension contributions
+## Code contributions
 
-While we have guidelines for every project in this organization, each one has its own preferences for accepting contributions. Check the repo for any specific guidance for contributing code.
+While we have general guidelines, each community extension has its own preferences for accepting contributions. Check the repo for any specific guidance for contributing code.
 
 We also have guidelines for [Maintainer and Reviewer expectations.](maintainer-reviewer-expectations.md)
 
-## Automated releases
+### Maven releases
 
-For more information on automated releases and how you can utilize automated releasing to Maven Central in the Camunda Community Hub, please view our [automated release](https://github.com/camunda-community-hub/community/blob/main/RELEASE.MD) documentation.
+For more information on releasing to Maven Central, please view our [release guide](https://github.com/camunda-community-hub/community/blob/main/RELEASE.MD).
 
-### groupId 
+### Docker releases
 
-The Camunda Community Hub members have decided to operate under a centralized groupId as of January 15th, 2021:
-
-```
-org.camunda.community
-```
-
-To make use of this centralized groupId in your own projects, including how to relocate your extension's GroupID, please review our [documentation.](groupId.md)
-
-1. Add GitHub Action [as decribed here](https://github.com/camunda-community-hub/community-action-maven-release#add-github-workflow). Check that the build is working when you push code to your repo. 
-
-2. When you are ready to release, follow [performing a release](https://github.com/camunda-community-hub/community/blob/main/RELEASE.MD#performing-a-release).
+For more information on releasing to Dockerhub, please view our [release guide](https://github.com/camunda-community-hub/community/blob/main/RELEASE.MD).
 
 
 ## Non-code Camunda community extension contributions
