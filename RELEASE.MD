@@ -4,11 +4,11 @@
 
 In order to build and release your Maven projects properly, you need to prepare:
 
-1. **Onboard your repository** (which makes sure you will have all necessary credentials available)
+1. **[Onboard](#onboarding-your-repository) your repository** (which makes sure you will have all necessary credentials available)
 2. Use the **[release parent pom](https://github.com/camunda-community-hub/community-hub-release-parent) in your Maven project (which will take care of distribution management)**
-3. Setup a Github workflow leveraging the [Community Hub Maven Release **Github Action**](https://github.com/camunda-community-hub/community-action-maven-release) (which will take care to do the proper releases).
+3. Setup a GitHub workflow leveraging the [Community Hub Maven Release **GitHub Action**](https://github.com/camunda-community-hub/community-action-maven-release) (which will take care to do the proper releases).
 
-Then you can simply create Github releases, which will also trigger all necessary Maven magic to deploy to 
+Then you can simply create GitHub releases, which will also trigger all necessary Maven magic to deploy to 
 
 - [Camunda Artifactory](https://artifacts.camunda.com/)
 - [Sonatype](https://oss.sonatype.org/#stagingRepositories) (aka Maven Central)
@@ -19,9 +19,9 @@ More information below.
 
 In order to build and release Docker images, you need to prepare:
 
-1. Use the **image name** `camundacommunityhub/*`
-1. **Onboard your repository** (which makes sure, you will have all necessary credentials available)
-3. Setup a Github workflow to push your Docker images to Dockerhub.
+1. **[Onboard](#onboarding-your-repository) your repository** (which makes sure you will have all necessary credentials available)
+2. Use the **image name** `camundacommunityhub/*`
+3. Setup a GitHub workflow to push your Docker images to Dockerhub. We recommend using the [official Docker login GitHub Action.](https://github.com/marketplace/actions/docker-login)
 
 More information below.
 
@@ -35,7 +35,7 @@ You need to register your repository by opening a pull request in the [Camunda I
 
 ### Use common groupId
 
-The Camunda Community Hub decided for a unified groupId. Use a Maven groupId based on: `org.camunda.community`, so for example `org.camunda.community.awesomeextension`
+The Camunda Community Hub decided on a unified groupId. Use a Maven groupId based on: `org.camunda.community`, so for example: `org.camunda.community.awesomeextension`
 
 ### Add release parent to POM
 
@@ -53,7 +53,7 @@ This parent POM contains all necessary settings for the GitHub action to functio
 
 ### Add GitHub workflow
 
-[Add a GitHub workflow (e.g. by adding a file `.github/workflows/deploy.yaml` to your) to your project as described here](https://github.com/camunda-community-hub/community-action-maven-release#add-github-workflow)
+[Add a GitHub workflow (e.g. by adding a file `.github/workflows/deploy.yaml` to your) to your project as described here.](https://github.com/camunda-community-hub/community-action-maven-release#add-github-workflow)
 
 
 ### Performing a release
@@ -65,7 +65,7 @@ This will trigger the release flow, which uses `mvn release:prepare release:perf
 
 There are two options:
 
-1. Use the **auto release property** in your Github workflow (**recommended**), so that all releases will be automatically be released to Maven Central:
+1. Use the **auto release property** in your GitHub workflow (**recommended**), so that all releases will be automatically be released to Maven Central:
 
 ```
 ...

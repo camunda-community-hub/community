@@ -19,13 +19,14 @@ This guide is intended for those who already have a pull request to submit to a 
 
 ## Example PR description:
 
+```
 References Issues #021 #009
 
 Fix to [xyz feature] was added to resolve bug referenced in #021, #009. All builds now pass, and the extension is performing as expected.
 
 <code> /lm needs-review, community-extension, bug-fix</code>
 <code>/assign @approver1 @approver2 @approver3</code>
-
+```
 ### What’s included in the example issue description:
 
 * Reference to other issues or PRs (#021, #009)

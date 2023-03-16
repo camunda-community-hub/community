@@ -1,5 +1,5 @@
 # The extension lifecycle
-Camunda community contributed extensions adhere to a project lifecycle that aims to balance the needs of the broader community with that of the Camunda ecosystem as a whole. This section will also detail the process for reporting abandoned extensions.
+Camunda community extensions adhere to a project lifecycle that aims to balance the needs of the broader community with that of the Camunda ecosystem as a whole. This section will also detail the process for reporting abandoned extensions.
 
 Community extensions will have the following labels and Shields.io badges applied to them in addition to the `Community Extension` label/badge, designating where they are in terms of current usability, project stability, and overall lifecycle status.
 
@@ -38,7 +38,7 @@ To use one of the Shields.io badges in your extension's README, copy the <code>i
 * To add this badge to your repository, add the following code at the top of your extension's README file: ```[![](https://img.shields.io/badge/Lifecycle-Proof%20of%20Concept-blueviolet)](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md#proof-of-concept-)```
 
 ### Incubating <img src="https://img.shields.io/badge/Lifecycle-Incubating-blue" alt="Blue Shields.io badge that reads Lifecycle: Incubating">
-* Extensions with the, ‘Incubating’ label provide some degree of stability which is defined and adhered to by the project’s maintainer, community support, and are actively maintained and updated. Documentation gaps, roadblocks, bugs, and other issues are to be expected. There is currently no set time limit for an extension to move out of incubation status.
+* Extensions with the ‘Incubating’ label provide some degree of stability which is defined and adhered to by the project’s maintainer, community support, and are actively maintained and updated. Documentation gaps, roadblocks, bugs, and other issues are to be expected. There is currently no set time limit for an extension to move out of incubation status.
 * To add this badge to your repository, add the following code at the top of your extension's README file: ```[![](https://img.shields.io/badge/Lifecycle-Incubating-blue)](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md#incubating-)```
 
 ## Stable <img src="https://img.shields.io/badge/Lifecycle-Stable-brightgreen" alt="Green Shields.io badge that reads Lifecycle: Stable">
@@ -62,6 +62,8 @@ To use one of the Shields.io badges in your extension's README, copy the <code>i
 * In your request, please be sure to detail as much as possible your plans for maintaining the extension moving forward, and please link to a discussion that shows you have made a good faith effort to contact the extension’s original developer.
 * If you are a maintainer that is no longer able to maintain your extension, you can add the 'Needs  Maintainer' Shields.io badge to your extension's README file to help notify others that the extension is in need of a maintainer. <img src="https://img.shields.io/badge/Lifecycle-Needs%20Maintainer%20-ff69b4" alt="Hot pink Shields.io badge that reads Lifecycle: Needs Maintainer">
 * To add this badge to your repository, add the following code at the top of your extension's README file: ```[![](https://img.shields.io/badge/Maintainer%20Wanted-This%20extension%20is%20in%20search%20of%20a%20Maintainer-ff69b4)```
+
+Note: If you no longer wish to maintain your extension, please follow the instructions for opening a pull request using the template provided, and apply the `Lifecycle - Maintainer Wanted` badge and Probot labels to your extension’s repository, issues, and open PRs.
 
 ### Requesting removal of a community extension
 When an extension has critical bugs and is not actively maintained, it may need to be removed from the Camunda Community Hub. To facilitate this process, please complete the following steps:

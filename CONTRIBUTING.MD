@@ -93,4 +93,4 @@ These are roles that are not code-based, but require some knowledge in that you 
 ### Getting started with open source
 - [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
 - [Using Pull Requests](https://help.github.com/articles/about-pull-requests/)
-- [GitHub Help](https://help.github.com)
+- [GitHub help](https://help.github.com)

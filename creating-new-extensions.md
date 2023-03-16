@@ -1,4 +1,3 @@
-
 # Creating a new Camunda community extension
 If you are interested in building a new Camunda Community Hub extension, follow these instructions:
 
@@ -11,8 +10,8 @@ If you are interested in building a new Camunda Community Hub extension, follow 
 6. Evaluate your extension's lifecycle status.
      * Once your extension proposal issue has been opened, use your best judgement after reviewing our [community extension lifecycle documentation](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md) to identify where in the development process your extension is currently and add it to your extension's README along with a community extension lifecycle label. 
 
-*Note that if your extension is new and/or untested, the label to apply to it should always be `proof-of-concept.`*
+*If your extension is new and/or untested, the label to apply to it should always be `proof-of-concept.`*
 
 ## Maintainer and reviewer expectations
 
-Please review our [maintainer expectations](maintainer-reviewer-expectations.md) and follow the guidelines.
+Review our [maintainer expectations](maintainer-reviewer-expectations.md) and follow the checklist and guidelines for your repo.
