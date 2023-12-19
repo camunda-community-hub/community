@@ -7,7 +7,7 @@ A project to empower our open source community extension maintainers, and encour
 
 - [What is the Camunda Community Hub?](#what-is-the-camunda-community-hub)
 - [How to contribute](#how-to-contribute)
-  - [Contributor resources & documentation](#contributor-resources--documentation)
+  - [Contributor resources \& documentation](#contributor-resources--documentation)
 - [Communication guidelines and expectations](#communication-guidelines-and-expectations)
 - [Troubleshooting and community support](#troubleshooting-and-community-support)
   - [Meet the Camunda Developer Relations team](#meet-the-camunda-developer-relations-team)

@@ -11,16 +11,15 @@ To use one of the Shields.io badges in your extension's README, copy the <code>i
 * To add this badge to your repository, add the following code at the top of your extension's README file ```[![](https://img.shields.io/badge/Community%20Extension-An%20open%20source%20community%20maintained%20project-FF4700)](https://github.com/camunda-community-hub/community)```
 
 ## Compatiblilty 
+<img src="https://img.shields.io/badge/Compatible%20with-Camunda%208-0072CE">
 
-<img src="https://img.shields.io/badge/Compatible%20with-Camunda%20Platform%207-26d07c"> 
+* This badge indicates that your extension is compatible with Camunda 8
+* To add this badge to your repo, add the following code in your extension's README file ```![Compatible with: Camunda 8](https://img.shields.io/badge/Compatible%20with-Camunda%208-0072Ce)```
 
-* This badge indicates that your extension is compatible with Camunda Platform 7
-* To add this badge to your repo, add the following code in your extension's README file ```![Compatible with: Camunda Platform 7](https://img.shields.io/badge/Compatible%20with-Camunda%20Platform%207-26d07c)```
+<img src="https://img.shields.io/badge/Compatible%20with-Camunda%207-26d07c"> 
 
-<img src="https://img.shields.io/badge/Compatible%20with-Camunda%20Platform%208-0072CE">
-
-* This badge indicates that your extension is compatible with Camunda Platform 8
-* To add this badge to your repo, add the following code in your extension's README file ```![Compatible with: Camunda Platform 8](https://img.shields.io/badge/Compatible%20with-Camunda%20Platform%208-0072Ce)```
+* This badge indicates that your extension is compatible with Camunda 7
+* To add this badge to your repo, add the following code in your extension's README file ```![Compatible with: Camunda 7](https://img.shields.io/badge/Compatible%20with-Camunda%207-26d07c)```
 
 ## Educational Tooling <img src="https://img.shields.io/badge/Educational%20Tooling-Project%20for%20getting%20started%20with%20Camunda%20for%20educators-%239F2B68" alt="a purple badge that reads 'Educational Tooling - Project for getting started with Camunda for educators'">
 
@@ -34,7 +33,7 @@ To use one of the Shields.io badges in your extension's README, copy the <code>i
 ## Proof-of-Concept <img src="https://img.shields.io/badge/Lifecycle-Proof%20of%20Concept-blueviolet" alt="Violet purple Shields.io badge that reads Lifecycle: Proof of Concept">
 * Proof-of-Concept/experimental extensions are just that, ideas that community members would like to explore further. 
 * They offer little support, nor do they promise any stability. 
-* This label is most often applied to extensions that are used to validate a Proof-of-Concept for working with Camunda Platform 7 or Camunda Plaform 8, or for those interested in finding collaborators on a particular project that has the potential to grow into a Stable extension.
+* This label is most often applied to extensions that are used to validate a Proof-of-Concept for working with Camunda 7 or Camunda 8, or for those interested in finding collaborators on a particular project that has the potential to grow into a Stable extension.
 * To add this badge to your repository, add the following code at the top of your extension's README file: ```[![](https://img.shields.io/badge/Lifecycle-Proof%20of%20Concept-blueviolet)](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md#proof-of-concept-)```
 
 ### Incubating <img src="https://img.shields.io/badge/Lifecycle-Incubating-blue" alt="Blue Shields.io badge that reads Lifecycle: Incubating">
