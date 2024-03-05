@@ -8,10 +8,10 @@ If you are interested in building a new Camunda Community Hub extension, follow 
 5. Open a New Community Extension proposal.
      * To open a new Community Extension Proposal in the Camunda Community Hub, you can do so by viewing the [issue tracker](https://github.com/Camunda-Community-Hub/community/issues/new/choose). Next, select `New Community Extension Proposal` from the available template options. After completing the template, open the issue and give it a meaningful title.
 6. Evaluate your extension's lifecycle status.
-     * Once your extension proposal issue has been opened, use your best judgement after reviewing our [community extension lifecycle documentation](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md) to identify where in the development process your extension is currently and add it to your extension's README along with a community extension lifecycle label. 
+     * Once your extension proposal issue has been opened, use your best judgement after reviewing our [community extension lifecycle documentation](/extension-lifecycle.md) to identify where in the development process your extension is currently and add it to your extension's README along with a community extension lifecycle label. 
 
 *If your extension is new and/or untested, the label to apply to it should always be `proof-of-concept.`*
 
 ## Maintainer and reviewer expectations
 
-Review our [maintainer expectations](maintainer-reviewer-expectations.md) and follow the checklist and guidelines for your repo.
+Review our [maintainer expectations](/maintainers-reviewers/maintainer-reviewer-expectations.md) and follow the checklist and guidelines for your repo.

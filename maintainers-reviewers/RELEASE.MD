@@ -116,9 +116,9 @@ This will ensure that when the `mvn release:perform `is triggered (with the `-Dp
 
 Verify that you have adjusted your extension's release workflow GPG files to match the example shown in the [Community Action Maven Release](https://github.com/camunda-community-hub/community-action-maven-release/blob/22004c20cb61979859e889cf17081b3e886849b8/example-workflows/java11/deploy.yml#L25-L30) documentation. For more information on Java setup actions and what GPG does, review the [documentation on GitHub](https://github.com/actions/setup-java/blob/main/docs/advanced-usage.md#gpg).
 
-## Integrating GitHub Actions with Zeebe on Camunda Cloud
+## Integrating GitHub Actions with Zeebe on Camunda 8
 
-If you are interested in working with GitHub Actions using Zeebe on Camunda Cloud, visit our [Camunda Cloud GitHub Action](https://github.com/camunda-community-hub/camunda-cloud-github-action) repository to get started.
+If you are interested in working with GitHub Actions using Zeebe on Camunda 8, visit our [Camunda 8 GitHub Action](https://github.com/camunda-community-hub/camunda-cloud-github-action) repository to get started.
 
 ## Troubleshooting
 

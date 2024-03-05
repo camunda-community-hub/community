@@ -2,18 +2,9 @@
 
 Issue labels can be added directly to issues via GitHub. We also encourage community members to triage issues by adding or removing labels if they see an open pull request or issue without a label they feel it may need to improve its context, visibility, or move it forward in the issue triage process.
 
-The following labels apply to community extension related pull requests and issues:
+The following labels apply to community extension pull requests and issues:
 
-* community-extension - This label is highly suggested to be used where applicable for all Camunda community extension related repositories, pull requests, and issues in the Camunda Community Extension Hub and designates that an extension is maintained by the open source community, and is not officially supported or maintained by Camunda.
-
-
-* Lifecycle - [Proof-of-Concept](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md#proof-of-concept-)
-* Lifecycle - [Incubating](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md#incubating-)
-* Lifecycle - [Stable](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md#stable-)
-* Lifecycle - [Deprecated](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md#deprecated-)
-* Lifecycle - [Abandoned](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md#abandoned-)
-* Lifecycle - Needs Maintainer
-
+## Kind
 
 * Kind: Work-in-Progress
 * Kind: Bug
@@ -31,12 +22,13 @@ The following labels apply to community extension related pull requests and issu
 * Kind: Templates
 * Kind: Good first issue
 
-* Area: Camunda Operator
-* Area: Camunda Cloud
-* Area: Camunda Platform
+## Area
+
 * Area: API 
 * Area: Library
 * Area: Security
+
+## Priority
 
 * Priority: Needs more evidence
 * Priority: Backlog
@@ -45,6 +37,7 @@ The following labels apply to community extension related pull requests and issu
 * Priority: Critical/Urgent
 * Priority: Long-Term
 
+## Triage
 * Triage: Needs Information
 * Triage: Not reproducible
 * Triage: Unresolved

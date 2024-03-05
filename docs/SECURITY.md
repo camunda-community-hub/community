@@ -15,8 +15,8 @@
   - [Dependabot](#dependabot)
 - [Inspiration](#inspiration)
 
-This document provides help and advice to projects in the Camunda Community hub regarding security issues, and how to handle reporting of security vulnerabilities. 
-As projects in the Camunda Community Hub are community maintained, security prevention is the responsibility of a project’s maintainer. 
+This document provides help and advice to projects in the Camunda Community Hub regarding security issues and how to handle reporting of security vulnerabilities. 
+As projects in the Camunda Community Hub are community maintained, **security prevention is the responsibility of a project’s maintainer.**
 
 In the Camunda Community Hub, we take security seriously.  As open source practitioners, it is our aim to empower those in this space to develop extensions with security best practices in mind. 
 
@@ -87,6 +87,7 @@ you may report it privately in a secure channel to the project’s maintainer, a
 
 
 Dependencies are the files, libraries, packages, and/or plugins integrated into a project to complete a set of tasks.
+
 These dependencies are the responsibility of project maintainers to manage and keep up to date. 
 Projects that have vulnerable dependencies that are not resolved within 30 days may be removed from the Camunda Community Hub.
 
@@ -196,8 +197,7 @@ These are based on rules that a maintainer sets in their repository’s renovate
 Renovate works with JavaScript, NPM, Yarn, Go, Bazel, Docker, Nugget, PHP, Python, and Ruby.
 
 Ultimately, we leave this decision of which dependency management tool to use in the hands of extension maintainers and their communities. 
-We look forward to steering the conversation surrounding these tools, and continuing to improve dependency management and the experience of developers in the
-Camunda Community Hub moving forward.
+We look forward to steering the conversation surrounding these tools, and continuing to improve dependency management and the experience of developers in the Camunda Community Hub moving forward.
 
 ## Inspiration
 

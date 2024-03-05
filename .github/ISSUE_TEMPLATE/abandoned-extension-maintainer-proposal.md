@@ -1,9 +1,7 @@
 ---
-name: Abandoned Extension Maintainer Proposal
-about: This template is to be used by contributors who wish to take on Maintainership
-  of an extension in the Camunda Community Hub that is marked with a lifecycle label
-  as Abandoned or Maintainer Wanted
-title: Abandoned Extension Maintainer Proposal
+name: Maintainer Proposal
+about: Apply to become a maintainer of a currently unmaintained repo or one that is marked as looking for maintainers
+title: Extension Maintainer Proposal
 labels: abandoned-extension-maintainer-proposal
 assignees: ''
 

@@ -1,7 +1,6 @@
 ---
 name: Camunda Community Hub Pull Request Template
-about: Use this template when opening a new pull request in a Camunda Community extension
-  repository.
+about: Template for a new pull request in a Camunda Community Hub repository
 title: Pull Request
 labels: ''
 assignees: ''

@@ -1,6 +1,6 @@
 ---
 name: New Community Extension Proposal Template
-about: Use this template when proposing a new Camunda Community Hub Extension
+about: Propose a new Camunda Community Hub Extension
 title: ''
 labels: ''
 assignees: ''
@@ -33,4 +33,4 @@ assignees: ''
 <!-- Add any additional context you feel is relevant to your proposal here. -->
 
 ### Maintainer eeded?
-<!-- if you wish to be the Maintainer for this extension, say, 'No,' here. If you're just making a suggestion for a new extension and *do not* want to maintain the extension, enter the text, 'This extension is actively seeking a maintainer' and add the lifecycle/needs-maintainer label to the issue in a new comment. -->
+<!-- if you wish to be the maintainer for this extension, say, 'No,' here. If you're just making a suggestion for a new extension and *do not* want to maintain the extension, enter the text, 'This extension is actively seeking a maintainer' and add the lifecycle/needs-maintainer label to the issue in a new comment. -->

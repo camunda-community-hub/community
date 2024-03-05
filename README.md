@@ -25,19 +25,20 @@ We’ve put together some commonly asked questions and answers about the Camunda
 
 1. To join the community, [open an issue](https://github.com/camunda-community-hub/community/issues) in this repository and ask to be invited to join the Camunda Community Hub if you are not already a member.
 
-2. Sign our [CLA](https://cla-assistant.io/camunda-community-hub/community) and agree to our [Code of Conduct](https://camunda.com/events/code-conduct/). Then, review our [Contributor Guide](CONTRIBUTING.MD).
+2. Sign our [CLA](https://cla-assistant.io/camunda-community-hub/community) and agree to our [Code of Conduct](https://camunda.com/events/code-conduct/). Then, review our [Contributor Guide](/docs/CONTRIBUTING.MD).
 
 3. Now either:
-    * **Start a new community extension** by [opening an issue](https://github.com/Camunda-Community-Hub/community/issues/new/choose) using the `New Community Extension Proposal` template. Follow our complete documentation on [creating a new extension here.](creating-new-extensions.md)
-    * **Transfer your existing repository** into the Camunda Community Hub (do not fork it into the Hub) following [these instructions.](transferring-extensions.md)
-    * **Browse our existing projects** and [contribute](CONTRIBUTING.MD) -- code and non-code contributions welcome!
+    * **Start a new community extension** by [opening an issue](https://github.com/Camunda-Community-Hub/community/issues/new/choose) using the `New Community Extension Proposal` template. Follow our complete documentation on [creating a new extension here.](maintainers-reviewers/creating-new-extensions.md)
+    * **Transfer your existing repository** into the Camunda Community Hub (do not fork it into the Hub) following [these instructions.](maintainers-reviewers/transferring-extensions.md)
+    * **Browse our existing projects** and [contribute](/docs/CONTRIBUTING.MD) -- code and non-code contributions welcome!
 
 ### Contributor resources & documentation
-* [Contributor guide](/CONTRIBUTING.MD)
+* [Contributor guide](/docs/CONTRIBUTING.MD)
 * [Issue triage and labeling](/issue-triage.md)
-* [Maintainer & reviewer expectations](/maintainer-reviewer-expectations.md)
-* [Automated release documentation](/RELEASE.MD)
-* [Using our groupId for Java builds](groupId.md)
+* [Maintainers, start here](maintainers-reviewers/maintainers-start-here.md)
+* [Maintainer & reviewer expectations](maintainers-reviewers/maintainer-reviewer-expectations.md)
+* [Automated release documentation](/maintainers-reviewers/RELEASE.MD)
+* [Using our groupId for Java builds](/maintainers-reviewers/groupId.md)
 
 ## Communication guidelines and expectations
 
@@ -57,14 +58,14 @@ When closing a pull request as a community extension maintainer, please keep in 
 
 ## Troubleshooting and community support
 
-If you’re encountering a problem, remember that the community is here to help! Please feel free to start a post on the [Camunda Platform forums](https://forum.camunda.io), or the Camunda Community Hub [GitHub Discussions](https://github.com/camunda-community-hub/community/discussions). 
+If you’re encountering a problem with an extension or the Community Hub, remember that the community is here to help! Please feel free to start a post on the [Camunda Platform forums](https://forum.camunda.io), or the Camunda Community Hub [GitHub Discussions](https://github.com/camunda-community-hub/community/discussions). 
 
 If you have a question related to getting started contributing to the Camunda open source ecosystem, or need to reach out to the Camunda team, you can start a topic in our [Discussions](https://github.com/camunda-community-hub/community/discussions), tag the [Camunda DevRel team](https://github.com/orgs/camunda-community-hub/teams/devrel) in an Issue or PR, or reach out via email: community@camunda.com. 
 
  We highly encourage you to post on the Camunda community forums about your extension, its wider impact for the open source community, and what made you decide to build a community extension. These are as follows:
 
-* [Camunda Platform](https://forum.camunda.io/)
-* [BPMN.io](https://forum.bpmn.io/)
+* [Camunda forum](https://forum.camunda.io/)
+* [BPMN.io forum](https://forum.bpmn.io/)
 
 ### Meet the Camunda Developer Relations team
 
