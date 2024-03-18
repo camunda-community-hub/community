@@ -78,6 +78,7 @@ These are roles that are not code-based, but require some knowledge in that you 
 ### Camunda contributions
 - [How to Contribute to Camunda](https://camunda.com/developers/how-to-contribute/)
 - [Camunda Code of Conduct](/docs/CODE_OF_CONDUCT.MD)
+- [Camunda Community Values](https://camunda.com/developers/community-values/)
 
 ### Getting started with open source
 - [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)

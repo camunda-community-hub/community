@@ -1,5 +1,5 @@
 ---
-name: Camunda Community Hub Pull Request Template
+name: Camunda Community Hub Pull Request
 about: Template for a new pull request in a Camunda Community Hub repository
 title: Pull Request
 labels: ''

@@ -42,7 +42,7 @@ We’ve put together some commonly asked questions and answers about the Camunda
 
 ## Communication guidelines and expectations
 
-As is the nature of open source software, maintainers and extension creators often wear many hats. These range from administrative, to QA, and much more. As extensions in the Camunda Community Hub are community led, it is crucial that users of extensions understand that maintainers are often working on community extensions in their free time. Please remember to be kind, and follow the [Camunda Community Code of Conduct](https://camunda.com/events/code-conduct/) when interacting with project maintainers.
+As is the nature of open source software, maintainers and extension creators often wear many hats. These range from administrative, to QA, and much more. As extensions in the Camunda Community Hub are community led, it is crucial that users of extensions understand that maintainers are often working on community extensions in their free time. Please remember to be kind, and follow the [Camunda Community Code of Conduct](https://camunda.com/events/code-conduct/) and [Camunda Community Values](https://camunda.com/developers/community-values/) when interacting with project maintainers.
 
 Keep in mind that communication styles vary, and no two individuals communicate in the same way. Please do your best to remain helpful, and try to avoid making sweeping demands or generalizations whenever possible. It is expected that Maintainers will follow the Camunda Code of Conduct when interacting with community members, and the same holds true for community members interacting with extension maintainers.
 
@@ -58,11 +58,11 @@ When closing a pull request as a community extension maintainer, please keep in 
 
 ## Troubleshooting and community support
 
-If you’re encountering a problem with an extension or the Community Hub, remember that the community is here to help! Please feel free to start a post on the [Camunda Platform forums](https://forum.camunda.io), or the Camunda Community Hub [GitHub Discussions](https://github.com/camunda-community-hub/community/discussions). 
+If you’re encountering a problem with an extension or the Community Hub, remember that the community is here to help! Please feel free to start a post on the [Camunda community forums](https://forum.camunda.io), or the Camunda Community Hub [GitHub Discussions](https://github.com/camunda-community-hub/community/discussions). 
 
 If you have a question related to getting started contributing to the Camunda open source ecosystem, or need to reach out to the Camunda team, you can start a topic in our [Discussions](https://github.com/camunda-community-hub/community/discussions), tag the [Camunda DevRel team](https://github.com/orgs/camunda-community-hub/teams/devrel) in an Issue or PR, or reach out via email: community@camunda.com. 
 
- We highly encourage you to post on the Camunda community forums about your extension, its wider impact for the open source community, and what made you decide to build a community extension. These are as follows:
+ We highly encourage you to post on the Camunda community forums about your extension, its wider impact for the open source community, and what made you decide to build a community extension. 
 
 * [Camunda forum](https://forum.camunda.io/)
 * [BPMN.io forum](https://forum.bpmn.io/)
