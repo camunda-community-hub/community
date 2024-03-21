@@ -1,5 +1,5 @@
 ---
-name: New Community Extension Proposal Template
+name: New Community Extension Proposal
 about: Propose a new Camunda Community Hub Extension
 title: ''
 labels: ''

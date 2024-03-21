@@ -1,5 +1,5 @@
 ---
-name: Report an Unmaintained Repo Template
+name: Report an Unmaintained Repo
 about: Alert the team to an unmaintained repo
 title: ''
 labels: ''

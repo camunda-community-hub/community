@@ -1,4 +1,17 @@
 # How to build and release projects on the Camunda Community Hub
+- [Maven](#maven)
+- [Docker](#docker)
+- [Onboarding your repository](#onboarding-your-repository)
+- [Maven](#maven-1)
+  - [Use the Camunda Community Hub groupId](#use-the-camunda-community-hub-groupid)
+  - [Add release parent to POM](#add-release-parent-to-pom)
+  - [Add GitHub workflow](#add-github-workflow)
+  - [Performing a release](#performing-a-release)
+- [Docker](#docker-1)
+  - [What if my release fails while deploying integration tests?](#what-if-my-release-fails-while-deploying-integration-tests)
+  - [What if my release says it's missing a key for GPG?](#what-if-my-release-says-its-missing-a-key-for-gpg)
+- [Integrating GitHub Actions with Zeebe on Camunda 8](#integrating-github-actions-with-zeebe-on-camunda-8)
+- [Troubleshooting](#troubleshooting)
 
 ## Maven
 
@@ -13,7 +26,9 @@ Then you can simply create GitHub releases, which will also trigger all necessar
 - [Camunda Artifactory](https://artifacts.camunda.com/)
 - [Sonatype](https://oss.sonatype.org/#stagingRepositories) (aka Maven Central)
 
-More information below.
+> View an example repository demonstrating the setup of Maven Build Management and CI/CD [here.](https://github.com/camunda-community-hub/community-hub-extension-example) 
+
+More information [below](#maven-1).
 
 ## Docker
 
@@ -23,7 +38,7 @@ In order to build and release Docker images, you need to prepare:
 2. Use the **image name** `camundacommunityhub/*`
 3. Setup a GitHub workflow to push your Docker images to Dockerhub. We recommend using the [official Docker login GitHub Action.](https://github.com/marketplace/actions/docker-login)
 
-More information below.
+More information [below](#docker-1).
 
 # Detailed instructions
 
@@ -33,7 +48,9 @@ You need to register your repository by opening a pull request in the [Camunda I
 
 ## Maven
 
-### Use common groupId
+> View an example repository demonstrating the setup of Maven Build Management and CI/CD [here.](https://github.com/camunda-community-hub/community-hub-extension-example) 
+
+### Use the Camunda Community Hub groupId
 
 The Camunda Community Hub decided on a unified groupId. Use a Maven groupId based on: `org.camunda.community`, so for example: `org.camunda.community.awesomeextension`
 
@@ -54,7 +71,7 @@ This parent POM contains all necessary settings for the GitHub action to functio
 
 ### Add GitHub workflow
 
-[Add a GitHub workflow (e.g. by adding a file `.github/workflows/deploy.yaml` to your) to your project as described here.](https://github.com/camunda-community-hub/community-action-maven-release#add-github-workflow)
+Add a GitHub workflow (e.g. by adding a file `.github/workflows/deploy.yaml` to your) to your project [as described here.](https://github.com/camunda-community-hub/community-action-maven-release#add-github-workflow)
 
 
 ### Performing a release
@@ -82,6 +99,7 @@ There are two options:
 2. Open an issue to let [@camunda-community-hub/devrel](https://github.com/orgs/camunda-community-hub/teams/devrel) review and release your artifact. Therefore, open a new issue in your repository and include [@camunda-community-hub/devrel](https://github.com/orgs/camunda-community-hub/teams/devrel) in a comment with a waiting-for-camunda [issue label](https://github.com/camunda-community-hub/template-repo/labels) applied. 
 
 After an artifact has been released, it can take up to an hour to be retrievable, and 2-3 hours for it to be reflected on the public page of the artifact.
+
 
 ## Docker
 
