@@ -28,8 +28,9 @@ We’ve put together some commonly asked questions and answers about the Camunda
 
 All contributors also must sign our [CLA](https://cla-assistant.io/camunda-community-hub/community) and agree to our [Code of Conduct](https://camunda.com/events/code-conduct/). Then, review our [Contributor Guide](/docs/CONTRIBUTING.MD).
 
+
 ### Contributor resources & documentation
-* [Contributor guide](/docs/CONTRIBUTING.MD)
+* [Contributor guide](/CONTRIBUTING.MD)
 * [Issue triage and labeling](/issue-triage.md)
 * [Maintainers, start here](maintainers-reviewers/maintainers-start-here.md)
 * [Maintainer & reviewer expectations](maintainers-reviewers/maintainer-reviewer-expectations.md)
