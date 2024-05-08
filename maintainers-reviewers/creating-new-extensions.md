@@ -2,7 +2,7 @@
 If you are interested in building a new Camunda Community Hub extension, follow these instructions:
 
 1. Set and confirm your commit email address. For more information on how to set your email address in GitHub, read the [GitHub documentation](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address) which goes into much more detail on the subject. 
-2. Browse the hub to see if there is an extension that already matches your idea. Alternatively, you can post your extension idea in the Community Hub's [Discussions](https://github.com/camunda-community-hub/community/discussions). 
+2. Browse the Hub to see if there is an extension that already matches your idea. Alternatively, you can post your extension idea in the Community Hub's [Discussions](https://github.com/camunda-community-hub/community/discussions). 
 3. Sign the [CLA](https://cla-assistant.io/camunda-community-hub/community) and agree to abide by our [Code of Conduct](https://camunda.com/events/code-conduct/). 
 4. Create a new repository. Title the repository with the name of your proposed extension.
 5. Open a New Community Extension proposal.
