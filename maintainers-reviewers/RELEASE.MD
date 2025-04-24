@@ -77,7 +77,7 @@ There are two options:
 # ...snip...
 
      - name: Deploy SNAPSHOT / Release
-       uses: camunda-community-hub/community-action-maven-release@v1
+       uses: camunda-community-hub/community-action-maven-release@v2
        with:
           maven-auto-release-after-close: true
           # ...
