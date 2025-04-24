@@ -97,6 +97,32 @@ After an artifact has been released, it can take up to an hour to be retrievable
 
 # FAQ
 
+## Why do I have to migrate to [community-hub-release-parent](https://github.com/camunda-community-hub/community-hub-release-parent) v2?
+
+Sonatype announced the [end-of-life of the legacy OSSRH](https://central.sonatype.org/news/20250326_ossrh_sunset/) service that the Community Hub historically used to publish to Maven Central. The [community-hub-release-parent](https://github.com/camunda-community-hub/community-hub-release-parent) POM v1 and the [Community Hub Maven Release GitHub Action](https://github.com/camunda-community-hub/community-action-maven-release) v1 only work against the legacy OSSRH service.
+
+Publishing to Maven Central via the new [Central Portal](https://central.sonatype.org/faq/what-is-different-between-central-portal-and-legacy-ossrh/) service requires a different Maven Plugin and different settings in the parent POM and the GitHub Action. Since this is a breaking change, there is new major versions v2 available for both.
+
+See the next FAQ entry for details on how to migrate.
+
+
+## How to migrate to [community-hub-release-parent](https://github.com/camunda-community-hub/community-hub-release-parent) v2?
+
+When you are publishing to the `org.camunda.community` Maven groupId on Maven Central via the [Community Hub Maven Release GitHub Action](https://github.com/camunda-community-hub/community-action-maven-release), you need to commit the following changes to your repository:
+
+1. In your `pom.xml` change the `<parent>` section to use `<version>2.0.0</version>` (Use the newest version available!) of the [community-hub-release-parent](https://github.com/camunda-community-hub/community-hub-release-parent).
+2. In your GHA workflow for publishing (e.g. `.github/workflows/deploy.yaml`) find the step named `Deploy SNAPSHOT / Release`:
+    1. Change to `uses: camunda-community-hub/community-action-maven-release@v2`
+    2. Change to `maven-usr: ${{ secrets.COMMUNITY_HUB_MAVEN_CENTRAL_CP_USR }}`
+    3. Change to `maven-psw: ${{ secrets.COMMUNITY_HUB_MAVEN_CENTRAL_CP_PSW }}`
+    4. Remove the line with `maven-url: ...` parameter if present
+
+Publishing Maven SNAPSHOT and release builds just work as before but now via the [Central Portal](https://central.sonatype.org/publish/publish-portal-guide).
+
+> [!IMPORTANT]  
+> In case you consuming Maven SNAPSHOT artifacts from Maven Central, you now need to configure [a different URL](https://central.sonatype.org/publish/publish-portal-snapshots/#consuming-snapshot-releases-for-your-project) locally: https://central.sonatype.com/repository/maven-snapshots/
+
+
 ## What if my release fails while deploying integration tests?
 
 Integration tests should be versioned when preparing a release, but should never be deployed to Maven Central. If you have an integration-tests module in your project, add the following profile to your parent POM:
