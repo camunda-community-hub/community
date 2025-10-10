@@ -33,8 +33,7 @@ More information [below](#docker-1).
 
 ## Onboarding your repository
 
-You need to register your repository by opening a pull request in the [Camunda Infrastructure](https://github.com/camunda-community-hub/infrastructure) repo and follow the instructions listed for [onboarding a new repository](https://github.com/camunda-community-hub/infrastructure#use-case-onboarding-a-new-community-hub-repository).
-
+You need to register your repository by opening a new issue in the [Camunda Infrastructure](https://github.com/camunda-community-hub/infrastructure) repo and follow the instructions listed for [onboarding a new repository](https://github.com/camunda-community-hub/infrastructure#onboarding-a-new-community-hub-repository).
 
 ## Maven
 
