@@ -57,16 +57,10 @@ When closing a pull request as a community extension maintainer, please keep in 
 
 If you’re encountering a problem with an extension or the Community Hub, remember that the community is here to help! Please feel free to start a post on the [Camunda community forums](https://forum.camunda.io), or the Camunda Community Hub [GitHub Discussions](https://github.com/camunda-community-hub/community/discussions). 
 
-If you have a question related to getting started contributing to the Camunda open source ecosystem, or need to reach out to the Camunda team, you can start a topic in our [Discussions](https://github.com/camunda-community-hub/community/discussions), tag the [Camunda DevRel team](https://github.com/orgs/camunda-community-hub/teams/devrel) in an Issue or PR, or reach out via email: community@camunda.com. 
-
  We highly encourage you to post on the Camunda community forums about your extension, its wider impact for the open source community, and what made you decide to build a community extension. 
 
 * [Camunda forum](https://forum.camunda.io/)
 * [BPMN.io forum](https://forum.bpmn.io/)
-
-### Meet the Camunda Developer Relations team
-
-The [Camunda Developer Relations team](https://github.com/Camunda-Community-Hub/devrel-team) exists to serve the Camunda developer community, from internal employees to open source contributors, Enterprise customers, and the broader tech community. It is our goal to provide opportunities for developers to be more successful by making them aware of our solutions, enabling them to be successful through great experiences, and fostering a culture of collaboration.
 
 ## Inspiration
 
